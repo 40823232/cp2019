@@ -57,19 +57,21 @@
 <v t="leo.20170710022054.1"><vh>可以另建節點存放 markdown 目錄下的 md 檔案</vh></v>
 <v t="leo.20170710022041.1"><vh>@path markdown</vh>
 <v t="leo.20180115115910.1"><vh>2019</vh>
+<v t=".20191108005835.1"><vh>期中考</vh>
+<v t=".20191108010058.1"><vh>@edit20191107.md</vh></v>
+</v>
 <v t="leo.20180423103639.1"><vh>2019 Fall CP 課程</vh>
-<v t=".20191107220554.1"><vh>@edit20191107.md</vh></v>
 <v t=".20191107211926.1"><vh>@edit 20191031.md</vh></v>
 </v>
 </v>
 </v>
-<v t="yen.20170108171733.83"><vh>產生 .key 與 .crt 指令</vh></v>
 </v>
+<v t="yen.20170108171733.83"><vh>產生 .key 與 .crt 指令</vh></v>
 <v t="yen.20170108171930.1"><vh>@button https server</vh></v>
 <v t="yen.20170108171939.1"><vh>@button ipv6 https server</vh></v>
 </vnodes>
 <tnodes>
-<t tx=".20191107220554.1">@language md
+<t tx=".20191108005835.1">@language md
 ---
 Title:期中考
 Date: 2019-11-07 22:00
@@ -79,7 +81,21 @@ Slug: 40823232-
 Author: 40823232
 ---
 期中考
-&lt;iframe width="600" height="400" allowfullscreen="allowscreen" src="https://www.youtube.com/watch?v=aHNzlHrwDzc&amp;feature=youtu.be"&gt;&lt;/iframe&gt;</t>
+&amp;lt;iframe width="560" height="315" src="https://www.youtube.com/embed/R_oC9a5aCq0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&amp;gt;&amp;lt;/iframe&amp;gt;&lt;/t&gt;
+&lt;/tnodes&gt;
+&lt;/leo_file&gt;
+</t>
+<t tx=".20191108010058.1">@language md
+---
+Title:期中考
+Date: 2019-11-07 22:00
+Category: Misc
+Tags: 2019FallCP
+Slug: 40823232-
+Author: 40823232
+---
+期中考
+&amp;lt;iframe width="560" height="315" src="https://www.youtube.com/embed/R_oC9a5aCq0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&amp;gt;&amp;lt;/iframe&amp;gt;&lt;/t&gt;</t>
 <t tx="leo.20170709015940.1"></t>
 <t tx="leo.20170709015947.1"></t>
 <t tx="leo.20170709020600.1"></t>

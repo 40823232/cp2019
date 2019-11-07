@@ -58,6 +58,7 @@
 <v t="leo.20170710022041.1"><vh>@path markdown</vh>
 <v t="leo.20180115115910.1"><vh>2019</vh>
 <v t="leo.20180423103639.1"><vh>2019 Fall CP 課程</vh>
+<v t=".20191107220554.1"><vh>@edit20191107.md</vh></v>
 <v t=".20191107211926.1"><vh>@edit 20191031.md</vh></v>
 <v t="leo.20180423103656.1"><vh>@edit 20191030.md</vh></v>
 </v>
@@ -69,6 +70,17 @@
 <v t="yen.20170108171939.1"><vh>@button ipv6 https server</vh></v>
 </vnodes>
 <tnodes>
+<t tx=".20191107220554.1">@language md
+---
+Title:期中考
+Date: 2019-11-07 22:00
+Category: Misc
+Tags: 2019FallCP
+Slug: 40823232
+Author: 40823232
+---
+期中考
+&lt;iframe width="600" height="400" allowfullscreen="allowscreen" src="https://www.youtube.com/watch?v=aHNzlHrwDzc&amp;feature=youtu.be"&gt;&lt;/iframe&gt;</t>
 <t tx="leo.20170709015940.1"></t>
 <t tx="leo.20170709015947.1"></t>
 <t tx="leo.20170709020600.1"></t>

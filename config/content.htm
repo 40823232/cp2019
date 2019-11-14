@@ -5,11 +5,7 @@
 <p><a href="https://gist.github.com/40823232/0ae5a8ccaf26f9c6643a6ec7e3d6c460">https://gist.github.com/40823232/0ae5a8ccaf26f9c6643a6ec7e3d6c460</a></p>
 <h2>w5</h2>
 <p>原始碼:</p>
-<pre class="brush:dart;auto-links:false;toolbar:false" contenteditable="false">// Copyright 2015 the Dart project authors. All rights reserved.
-// Use of this source code is governed by a BSD-style license
-// that can be found in the LICENSE file.
-
-void main() {
+<pre class="brush:dart;auto-links:false;toolbar:false" contenteditable="false">void main() {
   for (var i = 0; i &lt; 4; i++) {
     print('hello $i');
   }
@@ -17,14 +13,14 @@ void main() {
 <p><a href="https://gist.github.com/40823232/e150241f55afc828049865912c74ca0c">https://gist.github.com/40823232/e150241f55afc828049865912c74ca0c</a></p>
 <p><a href="http://mde.tw/dartpad/?id=215ba63265350c02dfbd586dfd30b8c3">http://mde.tw/dartpad/?id=215ba63265350c02dfbd586dfd30b8c3</a></p>
 <h2>w6</h2>
-<p>原始碼:</p>
+<p>hello原始碼:</p>
 <pre class="brush:dart;auto-links:false;toolbar:false" contenteditable="false">main() {
   for (int i = 0; i &lt; 5; i++) {
     print('hello $i');
   }
   print('hello 中文');
 }</pre>
-<p> 原始碼:</p>
+<p> for迴圈原始碼:</p>
 <pre class="brush:dart;auto-links:false;toolbar:false" contenteditable="false">int i;
 int sum;
 
@@ -42,6 +38,22 @@ fun1(){
 <p><iframe 600="" amp="" for="" gh_owner='40823232&amp;gh_repo=cp2019&amp;gh_path=content/for&amp;theme="dark"' height="600" src="https://dartpad.dev/embed-dart.html?id=de2ba740a07a068fc5427ff7cfac3813" width="800 height="></iframe></p>
 <p><a href="https://gist.github.com/40823232/de2ba740a07a068fc5427ff7cfac3813">https://gist.github.com/40823232/de2ba740a07a068fc5427ff7cfac3813</a></p>
 <p><a href="https://dartpad.dev?id=0ae5a8ccaf26f9c6643a6ec7e3d6c460">https://dartpad.dev?id=0ae5a8ccaf26f9c6643a6ec7e3d6c460</a></p>
+<h2>w7</h2>
+<p>sum原始碼:</p>
+<pre class="brush:dart;auto-links:false;toolbar:false" contenteditable="false">int i;
+int start=1;
+int end=10;
+int sum;
+  
+void main() {
+  sum = 0;
+  for ( i = start; i &lt;= end; i++) {
+    //print('目前累加值為 $i');
+    sum += i;
+  }
+  print("從 $start 累加至 $end 總數為 $sum");
+}</pre>
+<p></p>
 <p> </p>
 <h1>course</h1>
 <p>Course</p>

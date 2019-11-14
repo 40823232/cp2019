@@ -57,13 +57,9 @@
 <v t="leo.20170710022054.1"><vh>可以另建節點存放 markdown 目錄下的 md 檔案</vh></v>
 <v t="leo.20170710022041.1"><vh>@path markdown</vh>
 <v t="leo.20180115115910.1"><vh>2019</vh>
-<v t=".20191108140758.1"><vh>嵌入dart</vh>
-<v t=".20191108140818.1"><vh>@edit20191107.md</vh></v>
-</v>
-<v t=".20191108005835.1"><vh>期中考</vh>
-<v t=".20191108010058.1"><vh>@edit20191107.md</vh></v>
-</v>
 <v t="leo.20180423103639.1"><vh>2019 Fall CP 課程</vh>
+<v t=".20191108140818.1"><vh>@edit20191107.md</vh></v>
+<v t=".20191108010058.1"><vh>@edit20191107.md</vh></v>
 <v t=".20191107211926.1"><vh>@edit 20191031.md</vh></v>
 </v>
 </v>
@@ -74,20 +70,6 @@
 <v t="yen.20170108171939.1"><vh>@button ipv6 https server</vh></v>
 </vnodes>
 <tnodes>
-<t tx=".20191108005835.1">@language md
----
-Title:期中考
-Date: 2019-11-07 22:00
-Category: Misc
-Tags: 2019FallCP
-Slug: 40823232-
-Author: 40823232
----
-期中考
-&amp;lt;iframe width="560" height="315" src="https://www.youtube.com/embed/R_oC9a5aCq0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&amp;gt;&amp;lt;/iframe&amp;gt;&lt;/t&gt;
-&lt;/tnodes&gt;
-&lt;/leo_file&gt;
-</t>
 <t tx=".20191108010058.1">@language md
 ---
 Title:期中考
@@ -99,22 +81,21 @@ Author: 40823232
 ---
 期中考
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/R_oC9a5aCq0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
-<t tx=".20191108140758.1"></t>
 <t tx=".20191108140818.1">@language md
 ---
-Title: 嵌入dart
+Title: 嵌入 Dartpad
 Date: 2019-11-07 21:00
 Category: Misc
 Tags: 2019FallCP
-Slug: 2019-1
-Author: yen
+Slug: embedded-dartpad-to-blog
+Author: 40823232
 ---
 
 在此利用https://dartpad.github.io 將位於dart網頁 目錄中dart程式導入
 
 &lt;!-- PELICAN_END_SUMMARY --&gt;
 
-&lt;script&gt;// &lt;![CDATA[
+&lt;script&gt;
 function getDart(dirname){
     source = "https://dartpad.github.io/embed-dart.html?gh_owner=40823233&amp;gh_repo=cp2019&amp;gh_path=dart_ex/" + dirname + "&amp;theme=dark";
     document.getElementById("iframe").src = source ;

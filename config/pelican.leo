@@ -58,6 +58,7 @@
 <v t="leo.20170710022041.1"><vh>@path markdown</vh>
 <v t="leo.20180115115910.1"><vh>2019</vh>
 <v t="leo.20180423103639.1"><vh>2019 Fall CP 課程</vh>
+<v t=".20191205152008.1"><vh>@edit20191201.md</vh></v>
 <v t=".20191108140818.1"><vh>@edit20191107.md</vh></v>
 <v t=".20191108010058.1"><vh>@edit20191107.md</vh></v>
 <v t=".20191107211926.1"><vh>@edit 20191031.md</vh></v>
@@ -120,6 +121,18 @@ document.getElementById("iframe").height = 600 ;
 &lt;!-- 取 Dart 程式的按鈕 --&gt;
 &lt;p&gt;&lt;button onclick="largest()"&gt;放大&lt;/button&gt; &lt;button onclick="original()"&gt;回復&lt;/button&gt; &lt;button onclick="getDart('hello')"&gt;Hello&lt;/button&gt; &lt;button onclick="getDart('for loop')"&gt;For Loop&lt;/button&gt; &lt;button onclick="getDart('sum')"&gt;Sum&lt;/button&gt;&lt;button onclick="getDart('runge-kutta')"&gt;Runge-Kutta&lt;/button&gt;&lt;/p&gt;
 &lt;p&gt;&lt;iframe width="800" height="600" id="iframe" src="https://dartpad.dartlang.org/embed-dart.html?gh_owner=mdecourse&amp;amp;gh_repo=cp2019&amp;amp;gh_path=downloads/dart_ex/mass_spring_damping&amp;amp;theme=dark"&gt;&lt;/iframe&gt;&lt;/p&gt;</t>
+<t tx=".20191205152008.1">@language md
+---
+Title:期中考
+Date: 2019-12-01 22:00
+Category: Misc
+Tags: 2019FallCP
+Slug: 40823232-1
+Author: 40823232
+---
+W10.11
+&lt;iframe width="560" height="315" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen" frameborder="0" src="https://www.youtube.com/embed/I5e5wercnU4"&gt;&lt;/iframe&gt;
+</t>
 <t tx="leo.20170709015940.1"></t>
 <t tx="leo.20170709015947.1"></t>
 <t tx="leo.20170709020600.1"></t>

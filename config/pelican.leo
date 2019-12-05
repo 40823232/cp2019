@@ -58,6 +58,7 @@
 <v t="leo.20170710022041.1"><vh>@path markdown</vh>
 <v t="leo.20180115115910.1"><vh>2019</vh>
 <v t="leo.20180423103639.1"><vh>2019 Fall CP 課程</vh>
+<v t=".20191205155312.1"><vh>@edit20191205.md</vh></v>
 <v t=".20191205152008.1"><vh>@edit20191201.md</vh></v>
 <v t=".20191108140818.1"><vh>@edit20191107.md</vh></v>
 <v t=".20191108010058.1"><vh>@edit20191107.md</vh></v>
@@ -133,6 +134,19 @@ Author: 40823232
 W10.11
 &lt;iframe width="560" height="315" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen" frameborder="0" src="https://www.youtube.com/embed/I5e5wercnU4"&gt;&lt;/iframe&gt;
 </t>
+<t tx=".20191205155312.1">@language md
+---
+Title: w12過程
+Date: 2019-12-05 11:00
+Category: Misc
+Tags: 2019FallCP
+Slug: w12
+Author: 40823232
+---
+1.要先在dart_ex裡建立一個資料夾
+2.在資料夾裡建立yaml,dart檔,並寫入數列程式
+3.到9443裡嵌入按鈕
+4.save後轉進端push</t>
 <t tx="leo.20170709015940.1"></t>
 <t tx="leo.20170709015947.1"></t>
 <t tx="leo.20170709020600.1"></t>

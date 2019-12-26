@@ -11,6 +11,7 @@ main() => print("Hello, World!");
 
 /*
 import 'dart:math' as math;
+
 void main() {
   var n = 0; // °F
   print("The °F increases as:\n");
@@ -23,8 +24,10 @@ void main() {
 
 /*
 import 'dart:math' as math;
+
 int temperatures = 0;
 const int NO_temperatures = 10;
+
 void main() {
   print("The °F increases as:\n");
   for (int temperatures = 0) {
@@ -32,6 +35,7 @@ void main() {
     print("Count $temperatures temperatures:\t $temperaturesCount temperatures");
   }
 }
+
 int calculatetemperatures(int temperatures) {
   return(temperatures*1.8+32)
       .round()
@@ -65,28 +69,35 @@ int calculatetemperatures(int temperatures) {
 
 /*
 html
+
 temperatures<input type="number" id="temperatures" value="0" min="0" max="100"> 
 °C
 <input type="button" id="submit" value="Calculate"/>
 <br/>°F: <label id="output"></label>
+
 css
+
 body {
   color: white;
   font-size: 50px;
 }
+
 input, select, textarea {
 font-size: 100%;
 }
 */
 /*
 import 'dart:html';
+
 InputElement task;
 UListElement list;
+
 main() {
   task = querySelector('#task');
   list = querySelector('#list');
   task.onChange.listen((e) => addItem());
 }
+
 void addItem() {
   var newTask = LIElement();
   newTask.text = task.value;
@@ -103,10 +114,12 @@ html
   <ul id="list"/>
   
 css
+
 body {
   color: white;
   font-size: 50px;
 }
+
 input, select, textarea {
 font-size: 100%;
 }

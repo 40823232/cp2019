@@ -107,39 +107,76 @@ document.getElementById("iframe").height = 600 ;
 <h2>w16查驗考試</h2>
 <iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen" frameborder="0" height="315" src="https://www.youtube.com/embed/KmvQGUSeJuw" width="560"></iframe>
 <h2>w17</h2>
-<script src="/cmsimde/static/syntaxhighlighter/shCore.js" type="text/javascript"></script>
-<script src="/cmsimde/static/syntaxhighlighter/shBrushJScript.js" type="text/javascript"></script>
-<script src="/cmsimde/static/syntaxhighlighter/shBrushJava.js" type="text/javascript"></script>
-<script src="/cmsimde/static/syntaxhighlighter/shBrushPython.js" type="text/javascript"></script>
-<script src="/cmsimde/static/syntaxhighlighter/shBrushSql.js" type="text/javascript"></script>
-<script src="/cmsimde/static/syntaxhighlighter/shBrushHaxe.js" type="text/javascript"></script>
-<script src="/cmsimde/static/syntaxhighlighter/shBrushXml.js" type="text/javascript"></script>
-<script src="/cmsimde/static/syntaxhighlighter/shBrushPhp.js" type="text/javascript"></script>
-<script src="/cmsimde/static/syntaxhighlighter/shBrushLua.js" type="text/javascript"></script>
-<script src="/cmsimde/static/syntaxhighlighter/shBrushCpp.js" type="text/javascript"></script>
-<script src="/cmsimde/static/syntaxhighlighter/shBrushCss.js" type="text/javascript"></script>
-<script src="/cmsimde/static/syntaxhighlighter/shBrushCSharp.js" type="text/javascript"></script>
-<script src="/cmsimde/static/syntaxhighlighter/shBrushDart.js" type="text/javascript"></script>
-<script type="text/javascript">
-SyntaxHighlighter.all();
+<p>請輸入所要轉換的重量<br/>以數字加上 kg 或 lb:<br/><br/><input id="temp" max="30" min="1" type="text" value="20kg"/> <input id="submit" type="button" value="換算"/><br/> <br/>轉換結果:<br/><br/><label id="output"></label></p>
+<script src="/../cp2019/downloads/dart_ex/weight/weight.js"></script>
+<script>
+function getDart(dirname){
+    source = "https://dartpad.github.io/embed-dart.html?gh_owner=40823232&gh_repo=cp2019&gh_path=downloads/dart_ex/" + dirname + "&theme=dark";
+    document.getElementById("iframe").src = source ;
+}
+
+function getHtmlDart(dirname){
+    source = "https://dartpad.github.io/embed-html.html?gh_owner=40823232&gh_repo=cp2019&gh_path=downloads/dart_ex/" + dirname + "&theme=dark";
+document.getElementById("iframe").src = source ;
+}
+
+function getFlutter(dirname){
+    source = "https://dartpad.github.io/embed-flutter.html?gh_owner=40823232&gh_repo=cp2019&gh_path=downloads/dart_ex/" + dirname + "&theme=dark";
+document.getElementById("iframe").src = source ;
+}
+
+function largest(){
+document.getElementById("iframe").width = document.body.clientWidth ;
+document.getElementById("iframe").height = document.body.clientWidth*0.5 ;
+}
+
+function original(){
+document.getElementById("iframe").width = 800 ;
+document.getElementById("iframe").height = 600 ;
+}
 </script>
-<!-- 取 Dart 程式的按鈕 -->
 <h4>純 Dart 程式</h4>
-<p><button onclick="getDart('weight')">forweight</button></p>
+<p><button onclick="getDart('weight-dart')">重量轉換</button></p>
 <h4>Html 程式</h4>
-<p><button onclick="getHtmlDart('weight_change')">weight change</button></p>
-<p><button onclick="getHtmlDart('flag')">國旗</button></p>
+<p><button onclick="getHtmlDart('weight')">重量轉換</button></p>
 <!-- 內建放入的 Dart 原始碼 -->
 <p><button onclick="largest()">放大</button> <button onclick="original()">回復</button></p>
+<p><br/><iframe height="600" id="iframe" src="https://dartpad.github.io/embed-dart.html?gh_owner=40823232&amp;gh_repo=cp2019&amp;gh_path=downloads/dart_ex/weight-dart&amp;theme=dark" width="800"></iframe>.</p>
+<!-- footer -->
+<div class="container">
+<div class="row pt-3 mx-auto">
+<p><br/><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+</div>
+</div>
+<!-- for footer -->
 <p></p>
+<!-- for site wrap -->
 <p></p>
-<p><iframe height="600" id="iframe" src="https://dartpad.dartlang.org/embed-dart.html?gh_owner=40823245&amp;gh_repo=cp2019&amp;gh_path=downloads/dart_ex/mass_spring_damping&amp;theme=dark" width="800"></iframe></p>
-<p>重量轉換</p>
-<p>weight <input id="weight" max="100" min="0" type="number" value="0"/> KG <input id="submit" type="button" value="Calculate"/> <br/>LB: <label id="output"></label></p>
-<script src="/downloads/dart_ex/weight_change/weight.js"></script>
-<p>國旗</p>
-<p><canvas height="200" id="canvas" width="300"></canvas></p>
-<p><button id="button">Clear Canvas</button> <button id="cuba">Draw Cuba</button> <button id="china">Draw CHINA</button> <button id="San">Draw SAN</button> <button id="usa">Draw USA</button> <button id="uk">Draw UK</button> <button id="canada">Draw Canada</button></p>
+<!-- <script src="../cmsimde/static/chimper/js/jquery-3.3.1.min.js"></script> -->
+<script src="/cmsimde/static/chimper/js/jquery-migrate-3.0.1.min.js"></script>
+<script src="/cmsimde/static/chimper/js/jquery-ui.js"></script>
+<script src="/cmsimde/static/chimper/js/popper.min.js"></script>
+<script src="/cmsimde/static/chimper/js/bootstrap.min.js"></script>
+<script src="/cmsimde/static/chimper/js/owl.carousel.min.js"></script>
+<script src="/cmsimde/static/chimper/js/jquery.stellar.min.js"></script>
+<script src="/cmsimde/static/chimper/js/jquery.countdown.min.js"></script>
+<script src="/cmsimde/static/chimper/js/jquery.magnific-popup.min.js"></script>
+<script src="/cmsimde/static/chimper/js/bootstrap-datepicker.min.js"></script>
+<script src="/cmsimde/static/chimper/js/aos.js"></script>
+<!--
+            <script src="../cmsimde/static/chimper/js/typed.js"></script>
+                    <script>
+                    var typed = new Typed('.typed-words', {
+                    strings: ["Web Apps"," WordPress"," Mobile Apps"],
+                    typeSpeed: 80,
+                    backSpeed: 80,
+                    backDelay: 4000,
+                    startDelay: 1000,
+                    loop: true,
+                    showCursor: true
+                    });
+                    </script>
+            -->
 <p></p>
 <h1>Javascript</h1>
 <p>國旗</p>

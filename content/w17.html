@@ -149,33 +149,41 @@ init_mathjax();
           </div>
           
         </header>
-    <div id="tipue_search_content">w5 << <a href='w5.html'>Previous</a> <a href='w7.html'>Next</a> >> w7<br /><h1>w6</h1>
-<p>hello原始碼:</p>
-<pre class="brush:dart;auto-links:false;toolbar:false" contenteditable="false">main() {
-  for (int i = 0; i &lt; 5; i++) {
-    print('hello $i');
-  }
-  print('hello 中文');
-}</pre>
-<p> for迴圈原始碼:</p>
-<pre class="brush:dart;auto-links:false;toolbar:false" contenteditable="false">int i;
-int sum;
-
-main(){
-  sum = 0;
-  for (i=1;i &lt;= 10 ; i++){
-    sum += i;
-    print("$sum");
-  }
-  print('sum = $sum');
+    <div id="tipue_search_content">w16查驗考試 << <a href='w16查驗考試.html'>Previous</a> <a href='Javascript.html'>Next</a> >> Javascript<br /><h1>w17</h1>
+<script>
+function getDart(dirname){
+    source = "https://dartpad.github.io/embed-dart.html?gh_owner=40823138&gh_repo=cp2019&gh_path=downloads/dart_ex/" + dirname + "&theme=dark";
+    document.getElementById("iframe").src = source ;
 }
 
-fun1(){
-}</pre>
-<p><iframe 600="" amp="" for="" gh_owner='40823232&amp;gh_repo=cp2019&amp;gh_path=content/for&amp;theme="dark"' height="600" src="https://dartpad.dev/embed-dart.html?id=de2ba740a07a068fc5427ff7cfac3813" width="800 height="></iframe></p>
-<p><a href="https://gist.github.com/40823232/de2ba740a07a068fc5427ff7cfac3813">https://gist.github.com/40823232/de2ba740a07a068fc5427ff7cfac3813</a></p>
-<p><a href="https://dartpad.dev?id=0ae5a8ccaf26f9c6643a6ec7e3d6c460">https://dartpad.dev?id=0ae5a8ccaf26f9c6643a6ec7e3d6c460</a></p>
-<br />w5 << <a href='w5.html'>Previous</a> <a href='w7.html'>Next</a> >> w7</div>
+function getHtmlDart(dirname){
+    source = "https://dartpad.github.io/embed-html.html?gh_owner=40823138&gh_repo=cp2019&gh_path=downloads/dart_ex/" + dirname + "&theme=dark";
+document.getElementById("iframe").src = source ;
+}
+
+function getFlutter(dirname){
+    source = "https://dartpad.github.io/embed-flutter.html?gh_owner=40823138&gh_repo=cp2019&gh_path=downloads/dart_ex/" + dirname + "&theme=dark";
+document.getElementById("iframe").src = source ;
+}
+
+function largest(){
+document.getElementById("iframe").width = document.body.clientWidth ;
+document.getElementById("iframe").height = document.body.clientWidth*0.5 ;
+}
+
+function original(){
+document.getElementById("iframe").width = 800 ;
+document.getElementById("iframe").height = 600 ;
+}
+</script>
+<h4>Html 程式</h4>
+<p><button onclick="getHtmlDart('weight')">重量轉換</button></p>
+<p><!-- 內建放入的 Dart 原始碼 --></p>
+<p><button onclick="largest()">放大</button> <button onclick="original()">回復</button><br/><iframe height="600" id="iframe" src="https://dartpad.github.io/embed-dart.html?gh_owner=40823138&amp;gh_repo=cp2019&amp;gh_path=downloads/dart_ex/weight-dart&amp;theme=dark" width="800"></iframe></p>
+<p>請輸入所要轉換的重量<br/>以數字加上 kg 或 lb:<br/><br/><input id="temp" max="30" min="1" type="text" value="20kg"/> <input id="submit" type="button" value="換算"/><br/> <br/>轉換結果:<br/><br/><label id="output"></label></p>
+<p></p>
+<p></p>
+<br />w16查驗考試 << <a href='w16查驗考試.html'>Previous</a> <a href='Javascript.html'>Next</a> >> Javascript</div>
         
     <!-- footer -->
       <div class="container">

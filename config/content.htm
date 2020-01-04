@@ -178,6 +178,12 @@ document.getElementById("iframe").height = 600 ;
                     </script>
             -->
 <p></p>
+<p></p>
+<p><button onclick="getHtmlDart('flag')">國旗</button></p>
+<p><canvas height="200" id="canvas" width="300"></canvas></p>
+<p><button id="button">Clear Canvas</button> <button id="cuba">Draw Cuba</button> <button id="china">Draw CHINA</button> <button id="San">Draw SAN</button> <button id="usa">Draw USA</button> <button id="uk">Draw UK</button> <button id="canada">Draw Canada</button></p>
+<script src="/downloads/dart_ex/flag/flag.js"></script>
+<iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen" frameborder="0" height="315" src="https://www.youtube.com/embed/CmPCWXu--P4" width="560"></iframe>
 <h1>Javascript</h1>
 <p>國旗</p>
 <p><canvas height="200" id="canvas" width="300"></canvas></p>
@@ -194,6 +200,100 @@ document.getElementById("iframe").height = 600 ;
 <div class="row pt-3 mx-auto"></div>
 </div>
 <p><!-- for footer --></p>
+<h1>五芒星</h1>
+<script>
+function getDart(dirname){
+    source = "https://dartpad.github.io/embed-dart.html?gh_owner=s40523147&gh_repo=cp2019&gh_path=downloads/dart_ex/" + dirname + "&theme=dark";
+    document.getElementById("iframe").src = source ;
+}
+
+function getHtmlDart(dirname){
+    source = "https://dartpad.github.io/embed-html.html?gh_owner=s40523147&gh_repo=cp2019&gh_path=downloads/dart_ex/"  + dirname + "&theme=dark";
+document.getElementById("iframe").src = source ;
+}
+
+
+function largest(){
+document.getElementById("iframe").width = document.body.clientWidth ;
+document.getElementById("iframe").height = document.body.clientWidth*0.5 ;
+}
+
+function original(){
+document.getElementById("iframe").width = 900 ;
+document.getElementById("iframe").height = 600 ;
+}
+</script>
+<h4>Html 程式</h4>
+<p><button onclick="getHtmlDart('pentagram')">五芒星實心</button> <!-- 內建放入的 Dart 原始碼 --></p>
+<p><button onclick="largest()">放大</button> <button onclick="original()">回復</button></p>
+<p></p>
+<p><iframe height="600" id="iframe" src="https://dartpad.dartlang.org/embed-dart.html?gh_owner=s40523147&amp;gh_repo=cp2019&amp;gh_path=downloads/dart_ex/pentagram&amp;theme=dark" width="900"></iframe></p>
+<br/><br/></div>
+<!-- footer -->
+<div class="container">
+<div class="row pt-3 mx-auto">
+<p><br/><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+</div>
+</div>
+<!-- for footer -->
+<p></p>
+<!-- for site wrap -->
+<p></p>
+<!-- <script src="../cmsimde/static/chimper/js/jquery-3.3.1.min.js"></script> -->
+<script src="/cmsimde/static/chimper/js/jquery-migrate-3.0.1.min.js"></script>
+<script src="/cmsimde/static/chimper/js/jquery-ui.js"></script>
+<script src="/cmsimde/static/chimper/js/popper.min.js"></script>
+<script src="/cmsimde/static/chimper/js/bootstrap.min.js"></script>
+<script src="/cmsimde/static/chimper/js/owl.carousel.min.js"></script>
+<script src="/cmsimde/static/chimper/js/jquery.stellar.min.js"></script>
+<script src="/cmsimde/static/chimper/js/jquery.countdown.min.js"></script>
+<script src="/cmsimde/static/chimper/js/jquery.magnific-popup.min.js"></script>
+<script src="/cmsimde/static/chimper/js/bootstrap-datepicker.min.js"></script>
+<script src="/cmsimde/static/chimper/js/aos.js"></script>
+<!--
+            <script src="../cmsimde/static/chimper/js/typed.js"></script>
+                    <script>
+                    var typed = new Typed('.typed-words', {
+                    strings: ["Web Apps"," WordPress"," Mobile Apps"],
+                    typeSpeed: 80,
+                    backSpeed: 80,
+                    backDelay: 4000,
+                    startDelay: 1000,
+                    loop: true,
+                    showCursor: true
+                    });
+                    </script>
+            -->
+<script src="/cmsimde/static/chimper/js/main.js"></script>
+<h4></h4>
+<!-- for site wrap -->
+<p></p>
+<!-- <script src="../cmsimde/static/chimper/js/jquery-3.3.1.min.js"></script> -->
+<script src="/cmsimde/static/chimper/js/jquery-migrate-3.0.1.min.js"></script>
+<script src="/cmsimde/static/chimper/js/jquery-ui.js"></script>
+<script src="/cmsimde/static/chimper/js/popper.min.js"></script>
+<script src="/cmsimde/static/chimper/js/bootstrap.min.js"></script>
+<script src="/cmsimde/static/chimper/js/owl.carousel.min.js"></script>
+<script src="/cmsimde/static/chimper/js/jquery.stellar.min.js"></script>
+<script src="/cmsimde/static/chimper/js/jquery.countdown.min.js"></script>
+<script src="/cmsimde/static/chimper/js/jquery.magnific-popup.min.js"></script>
+<script src="/cmsimde/static/chimper/js/bootstrap-datepicker.min.js"></script>
+<script src="/cmsimde/static/chimper/js/aos.js"></script>
+<!--
+            <script src="../cmsimde/static/chimper/js/typed.js"></script>
+                    <script>
+                    var typed = new Typed('.typed-words', {
+                    strings: ["Web Apps"," WordPress"," Mobile Apps"],
+                    typeSpeed: 80,
+                    backSpeed: 80,
+                    backDelay: 4000,
+                    startDelay: 1000,
+                    loop: true,
+                    showCursor: true
+                    });
+                    </script>
+            -->
+<script src="/cmsimde/static/chimper/js/main.js"></script>
 <p></p>
 <h1>course</h1>
 <p>Course</p>
@@ -207,4 +307,3 @@ document.getElementById("iframe").height = 600 ;
 <p>動態內容編輯完成後, 以 generate_pages 轉為靜態內容, 以 git add commit 及 push 將內容推到遠端.</p>
 <p>4. 之後若要以 git clone 取下包含 submodule 的所有內容, 執行:</p>
 <p>git clone --recurse-submodules<span> </span><a href="https://github.com/mdecourse/newcms.git">https://github.com/mdecourse/newcms.git</a>v</p>
-</div>

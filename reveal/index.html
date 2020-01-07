@@ -95,148 +95,130 @@ Author: 40823232
 ---
 
 						
----
-Title: 溫度轉換
-Date: 2019-11-07 21:00
-Category: Misc
-Slug: embedded-dartpad-to-blog
-Author: 40823232
----
-</script>
-<!-- 取 Dart 程式的按鈕 -->
-<h4></h4>
-<!-- 取 Dart 程式的按鈕 -->
-<h4>純 Dart 程式</h4>
-<p><button onclick="getDart('hello')">Hello</button> <button onclick="getDart('for')">For Loop</button> <button onclick="getDart('sum')">Sum</button> <button onclick="getDart('runge_kutta')">Runge-Kutta</button> <button onclick="getDart('rk_ex1')">RK ex1</button> <button onclick="getDart('mass_spring_damping')">Mass Spring Damping</button> <button onclick="getDart('forCF')">forCF</button></p>
-<h4>Html 程式</h4>
-<p><button onclick="getHtmlDart('roc_flag')">ROC Flag</button> <button onclick="getHtmlDart('grid')">Grid</button> <button onclick="getHtmlDart('xyplot')">X-Y Plot</button> <button onclick="getHtmlDart('slithery')">Slithery</button> <button onclick="getHtmlDart('CF')">CF</button> <button onclick="getHtmlDart('random_grouping')">亂數分組</button></p>
-<h4>Flutter 程式</h4>
-<p><button onclick="getFlutter('flutter1')">Flutter1</button> <button onclick="getFlutter('flutter2')">Flutter2</button> <button onclick="getFlutter('flutter3')">Flutter3</button></p>
-<!-- 內建放入的 Dart 原始碼 -->
-<p><button onclick="largest()">放大</button> <button onclick="original()">回復</button></p>
-<p><br/><iframe height="600" id="iframe" src="https://dartpad.dartlang.org/embed-dart.html?gh_owner=40823245&amp;gh_repo=cp2019bg4&amp;gh_path=downloads/dart_ex/mass_spring_damping&amp;theme=dark" width="800"></iframe></p>
-<p>溫度轉換</p>
-<p>temperatures <input id="temperatures" max="100" min="0" type="number" value="0"/> °C <input id="submit" type="button" value="Calculate"/> <br/>°F: <label id="output"></label></p>
-<script src="/. . /downloads/dart_ex/CF/CF.js"></script>
-
-
-        
-    <!-- footer -->
-      <div class="container">
-        <div class="row pt-3 mx-auto">
-            <p>
-            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Colorlib</a>
-            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-            </p>
-        </div>
-      </div>
-    <!-- for footer -->
+</title>
+    <meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+    <meta name="author" content="Hakim El Hattab">
     
-        </div> <!-- for site wrap -->
-            <!-- <script src="../cmsimde/static/chimper/js/jquery-3.3.1.min.js"></script> -->
-            <script src="../cmsimde/static/chimper/js/jquery-migrate-3.0.1.min.js"></script>
-            <script src="../cmsimde/static/chimper/js/jquery-ui.js"></script>
-            <script src="../cmsimde/static/chimper/js/popper.min.js"></script>
-            <script src="../cmsimde/static/chimper/js/bootstrap.min.js"></script>
-            <script src="../cmsimde/static/chimper/js/owl.carousel.min.js"></script>
-            <script src="../cmsimde/static/chimper/js/jquery.stellar.min.js"></script>
-            <script src="../cmsimde/static/chimper/js/jquery.countdown.min.js"></script>
-            <script src="../cmsimde/static/chimper/js/jquery.magnific-popup.min.js"></script>
-            <script src="../cmsimde/static/chimper/js/bootstrap-datepicker.min.js"></script>
-            <script src="../cmsimde/static/chimper/js/aos.js"></script>
-            <!--
-            <script src="../cmsimde/static/chimper/js/typed.js"></script>
-                    <script>
-                    var typed = new Typed('.typed-words', {
-                    strings: ["Web Apps"," WordPress"," Mobile Apps"],
-                    typeSpeed: 80,
-                    backSpeed: 80,
-                    backDelay: 4000,
-                    startDelay: 1000,
-                    loop: true,
-                    showCursor: true
-                    });
-                    </script>
-            -->
-            <script src="../cmsimde/static/chimper/js/main.js"></script>
-        </body></html>
----
-Title: blog
-Date: 2019-11-07 21:00
-Category: Misc
-Slug: embedded-dartpad-to-blog
-Author: 40823232
----
-<iframe width="560" height="400" src="https://40823232.github.io/cp2019/blog/" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
----
-Title: 自評方式
-Date: 2019-11-07 21:00
-Category: Misc
-Slug: embedded-dartpad-to-blog
-Author: 40823232
----
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/black.css" id="theme">
+    
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="lib/css/zenburn.css">
+
+    <!-- Printing and PDF exports -->
+    <script>
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+    </script>
+
+    <!--[if lt IE 9]>
+    <script src="lib/js/html5shiv.js"></script>
+    <![endif]-->
+</head>
+</title>
+    <meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+    <meta name="author" content="Hakim El Hattab">
+    
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/black.css" id="theme">
+    
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="lib/css/zenburn.css">
+
+    <!-- Printing and PDF exports -->
+    <script>
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+    </script>
+
+    <!--[if lt IE 9]>
+    <script src="lib/js/html5shiv.js"></script>
+    <![endif]-->
+</head>
+<head>
+      <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+
+  <title>CP2019 計算機程式 40823232</title>
+
+
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="referrer" content="origin" />
+  <meta name="generator" content="Pelican" />
+  <link href="https://40823232.github.io/cp2019/blog/" rel="canonical" />
+
+  <!-- Feed -->
+        <link href="https://40823232.github.io/cp2019/blog/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="CP2019 計算機程式 40823232 Full Atom Feed" />
+
+  <link href="https://40823232.github.io/cp2019/blog/theme/css/style.css" type="text/css" rel="stylesheet" />
+
+  <!-- Code highlight color scheme -->
+      <link href="https://40823232.github.io/cp2019/blog/theme/css/code_blocks/tomorrow_night.css" rel="stylesheet">
+
+  
+    <link href="https://40823232.github.io/cp2019/blog/theme/tipuesearch/tipuesearch.css" rel="stylesheet">
+
+  <!-- Custom fonts -->
+  <link href='https://fonts.googleapis.com/css?family=Montserrat:400,300' rel='stylesheet' type='text/css' />
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css" />
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
+<head>
+    <meta charset="utf-8">
 利用此網址 https://forms.gle/hztfjHLkrAaLyntv6
 進行個人與組員之評分
----
-Title: 亂數分組
-Date: 2019-11-07 21:00
-Category: Misc
-Slug: embedded-dartpad-to-blog
-Author: 40823232
----
-<p>亂數分組</p>
-<p>學員名單 URL: <input id="studListUrl" size="50" type="text" value="https://mde.tw/cp2019/downloads/2019fall_cp_1b_list.txt"/><br/> 每組人數: <input id="grpNum" size="3" type="tex" value="10"/><br/> <input id="submit" type="submit" value="開始分組"/><br/> <label id="output"></label></p>
-<p></p>
-<script src="./../downloads/dart_ex/random_grouping/random_grouping.js"></script>
-<p></p>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-<div class="container">
-<div class="row pt-3 mx-auto"></div>
-</div>
-<p><!-- for footer --></p>
-
-        
-    <!-- footer -->
-      <div class="container">
-        <div class="row pt-3 mx-auto">
-            <p>
-            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Colorlib</a>
-            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-            </p>
-        </div>
-      </div>
-    <!-- for footer -->
+</title>
+    <meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+    <meta name="author" content="Hakim El Hattab">
     
-        </div> <!-- for site wrap -->
-            <!-- <script src="../cmsimde/static/chimper/js/jquery-3.3.1.min.js"></script> -->
-            <script src="../cmsimde/static/chimper/js/jquery-migrate-3.0.1.min.js"></script>
-            <script src="../cmsimde/static/chimper/js/jquery-ui.js"></script>
-            <script src="../cmsimde/static/chimper/js/popper.min.js"></script>
-            <script src="../cmsimde/static/chimper/js/bootstrap.min.js"></script>
-            <script src="../cmsimde/static/chimper/js/owl.carousel.min.js"></script>
-            <script src="../cmsimde/static/chimper/js/jquery.stellar.min.js"></script>
-            <script src="../cmsimde/static/chimper/js/jquery.countdown.min.js"></script>
-            <script src="../cmsimde/static/chimper/js/jquery.magnific-popup.min.js"></script>
-            <script src="../cmsimde/static/chimper/js/bootstrap-datepicker.min.js"></script>
-            <script src="../cmsimde/static/chimper/js/aos.js"></script>
-            <!--
-            <script src="../cmsimde/static/chimper/js/typed.js"></script>
-                    <script>
-                    var typed = new Typed('.typed-words', {
-                    strings: ["Web Apps"," WordPress"," Mobile Apps"],
-                    typeSpeed: 80,
-                    backSpeed: 80,
-                    backDelay: 4000,
-                    startDelay: 1000,
-                    loop: true,
-                    showCursor: true
-                    });
-                    </script>
-            -->
-            <script src="../cmsimde/static/chimper/js/main.js"></script>
-        </body></html>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/black.css" id="theme">
+    
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="lib/css/zenburn.css">
+
+    <!-- Printing and PDF exports -->
+    <script>
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+    </script>
+
+    <!--[if lt IE 9]>
+    <script src="lib/js/html5shiv.js"></script>
+    <![endif]-->
+</head>
 
 </section>
 </div>

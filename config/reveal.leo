@@ -27,6 +27,7 @@
 <v t="leo.20180902120523.17"><vh>個人網頁</vh></v>
 </v>
 <v t="leo.20180902120523.18"><vh>課程任務</vh>
+<v t="leo.20200107215830.1"><vh>重量轉換</vh></v>
 <v t="leo.20200107211657.1"><vh>溫度轉換</vh></v>
 <v t="leo.20200107211205.1"><vh>blog</vh></v>
 <v t="leo.20200107211210.1"><vh>自評方式</vh></v>
@@ -105,66 +106,34 @@ Author: 40823232
 
 						
 </t>
-<t tx="leo.20180902120523.19">@language md
----
-Title: 亂數分組
-Date: 2019-11-07 21:00
-Category: Misc
-Slug: embedded-dartpad-to-blog
-Author: 40823232
----
-&lt;p&gt;亂數分組&lt;/p&gt;
-&lt;p&gt;學員名單 URL: &lt;input id="studListUrl" size="50" type="text" value="https://mde.tw/cp2019/downloads/2019fall_cp_1b_list.txt"/&gt;&lt;br/&gt; 每組人數: &lt;input id="grpNum" size="3" type="tex" value="10"/&gt;&lt;br/&gt; &lt;input id="submit" type="submit" value="開始分組"/&gt;&lt;br/&gt; &lt;label id="output"&gt;&lt;/label&gt;&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;
-&lt;script src="./../downloads/dart_ex/random_grouping/random_grouping.js"&gt;&lt;/script&gt;
-&lt;p&gt;&lt;/p&gt;
-&lt;!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --&gt;
-&lt;div class="container"&gt;
-&lt;div class="row pt-3 mx-auto"&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;&lt;!-- for footer --&gt;&lt;/p&gt;
-
-        
-    &lt;!-- footer --&gt;
-      &lt;div class="container"&gt;
-        &lt;div class="row pt-3 mx-auto"&gt;
-            &lt;p&gt;
-            &lt;!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --&gt;
-            Copyright &amp;copy;&lt;script&gt;document.write(new Date().getFullYear());&lt;/script&gt; All rights reserved | This template is made with &lt;i class="icon-heart" aria-hidden="true"&gt;&lt;/i&gt; by &lt;a href="https://colorlib.com" target="_blank" &gt;Colorlib&lt;/a&gt;
-            &lt;!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --&gt;
-            &lt;/p&gt;
-        &lt;/div&gt;
-      &lt;/div&gt;
-    &lt;!-- for footer --&gt;
+<t tx="leo.20180902120523.19">&lt;/title&gt;
+    &lt;meta name="description" content="A framework for easily creating beautiful presentations using HTML"&gt;
+    &lt;meta name="author" content="Hakim El Hattab"&gt;
     
-        &lt;/div&gt; &lt;!-- for site wrap --&gt;
-            &lt;!-- &lt;script src="../cmsimde/static/chimper/js/jquery-3.3.1.min.js"&gt;&lt;/script&gt; --&gt;
-            &lt;script src="../cmsimde/static/chimper/js/jquery-migrate-3.0.1.min.js"&gt;&lt;/script&gt;
-            &lt;script src="../cmsimde/static/chimper/js/jquery-ui.js"&gt;&lt;/script&gt;
-            &lt;script src="../cmsimde/static/chimper/js/popper.min.js"&gt;&lt;/script&gt;
-            &lt;script src="../cmsimde/static/chimper/js/bootstrap.min.js"&gt;&lt;/script&gt;
-            &lt;script src="../cmsimde/static/chimper/js/owl.carousel.min.js"&gt;&lt;/script&gt;
-            &lt;script src="../cmsimde/static/chimper/js/jquery.stellar.min.js"&gt;&lt;/script&gt;
-            &lt;script src="../cmsimde/static/chimper/js/jquery.countdown.min.js"&gt;&lt;/script&gt;
-            &lt;script src="../cmsimde/static/chimper/js/jquery.magnific-popup.min.js"&gt;&lt;/script&gt;
-            &lt;script src="../cmsimde/static/chimper/js/bootstrap-datepicker.min.js"&gt;&lt;/script&gt;
-            &lt;script src="../cmsimde/static/chimper/js/aos.js"&gt;&lt;/script&gt;
-            &lt;!--
-            &lt;script src="../cmsimde/static/chimper/js/typed.js"&gt;&lt;/script&gt;
-                    &lt;script&gt;
-                    var typed = new Typed('.typed-words', {
-                    strings: ["Web Apps"," WordPress"," Mobile Apps"],
-                    typeSpeed: 80,
-                    backSpeed: 80,
-                    backDelay: 4000,
-                    startDelay: 1000,
-                    loop: true,
-                    showCursor: true
-                    });
-                    &lt;/script&gt;
-            --&gt;
-            &lt;script src="../cmsimde/static/chimper/js/main.js"&gt;&lt;/script&gt;
-        &lt;/body&gt;&lt;/html&gt;
+    &lt;meta name="apple-mobile-web-app-capable" content="yes"&gt;
+    &lt;meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"&gt;
+    
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"&gt;
+    
+    &lt;link rel="stylesheet" href="css/reveal.css"&gt;
+    &lt;link rel="stylesheet" href="css/theme/black.css" id="theme"&gt;
+    
+    &lt;!-- Theme used for syntax highlighting of code --&gt;
+    &lt;link rel="stylesheet" href="lib/css/zenburn.css"&gt;
+
+    &lt;!-- Printing and PDF exports --&gt;
+    &lt;script&gt;
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+    &lt;/script&gt;
+
+    &lt;!--[if lt IE 9]&gt;
+    &lt;script src="lib/js/html5shiv.js"&gt;&lt;/script&gt;
+    &lt;![endif]--&gt;
+&lt;/head&gt;
 
 </t>
 <t tx="leo.20180902120523.2">40823232</t>
@@ -337,91 +306,102 @@ QLineEdit#editorLabel {
 }</t>
 <t tx="leo.20180902120538.3">horizontal: body pane to the left
 vertical: body pane on the botton</t>
-<t tx="leo.20200107211205.1">@language md
----
-Title: blog
-Date: 2019-11-07 21:00
-Category: Misc
-Slug: embedded-dartpad-to-blog
-Author: 40823232
----
-&lt;iframe width="560" height="400" src="https://40823232.github.io/cp2019/blog/" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
-<t tx="leo.20200107211210.1">@language md
----
-Title: 自評方式
-Date: 2019-11-07 21:00
-Category: Misc
-Slug: embedded-dartpad-to-blog
-Author: 40823232
----
+<t tx="leo.20200107211205.1">&lt;head&gt;
+      &lt;meta charset="utf-8"&gt;
+  &lt;meta http-equiv="Content-Type" content="text/html" charset="UTF-8" /&gt;
+  &lt;meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /&gt;
+
+
+  &lt;title&gt;CP2019 計算機程式 40823232&lt;/title&gt;
+
+
+  &lt;meta name="HandheldFriendly" content="True" /&gt;
+  &lt;meta name="viewport" content="width=device-width, initial-scale=1.0" /&gt;
+  &lt;meta name="referrer" content="origin" /&gt;
+  &lt;meta name="generator" content="Pelican" /&gt;
+  &lt;link href="https://40823232.github.io/cp2019/blog/" rel="canonical" /&gt;
+
+  &lt;!-- Feed --&gt;
+        &lt;link href="https://40823232.github.io/cp2019/blog/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="CP2019 計算機程式 40823232 Full Atom Feed" /&gt;
+
+  &lt;link href="https://40823232.github.io/cp2019/blog/theme/css/style.css" type="text/css" rel="stylesheet" /&gt;
+
+  &lt;!-- Code highlight color scheme --&gt;
+      &lt;link href="https://40823232.github.io/cp2019/blog/theme/css/code_blocks/tomorrow_night.css" rel="stylesheet"&gt;
+
+  
+    &lt;link href="https://40823232.github.io/cp2019/blog/theme/tipuesearch/tipuesearch.css" rel="stylesheet"&gt;
+
+  &lt;!-- Custom fonts --&gt;
+  &lt;link href='https://fonts.googleapis.com/css?family=Montserrat:400,300' rel='stylesheet' type='text/css' /&gt;
+  &lt;link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css" /&gt;
+
+  &lt;!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries --&gt;
+  &lt;!-- WARNING: Respond.js doesn't work if you view the page via file:// --&gt;
+  &lt;!--[if lt IE 9]&gt;
+    &lt;script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"&gt;&lt;/script&gt;
+    &lt;script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"&gt;&lt;/script&gt;
+  &lt;![endif]--&gt;</t>
+<t tx="leo.20200107211210.1">&lt;head&gt;
+    &lt;meta charset="utf-8"&gt;
 利用此網址 https://forms.gle/hztfjHLkrAaLyntv6
 進行個人與組員之評分</t>
-<t tx="leo.20200107211657.1">@language md
----
-Title: 溫度轉換
-Date: 2019-11-07 21:00
-Category: Misc
-Slug: embedded-dartpad-to-blog
-Author: 40823232
----
-&lt;/script&gt;
-&lt;!-- 取 Dart 程式的按鈕 --&gt;
-&lt;h4&gt;&lt;/h4&gt;
-&lt;!-- 取 Dart 程式的按鈕 --&gt;
-&lt;h4&gt;純 Dart 程式&lt;/h4&gt;
-&lt;p&gt;&lt;button onclick="getDart('hello')"&gt;Hello&lt;/button&gt; &lt;button onclick="getDart('for')"&gt;For Loop&lt;/button&gt; &lt;button onclick="getDart('sum')"&gt;Sum&lt;/button&gt; &lt;button onclick="getDart('runge_kutta')"&gt;Runge-Kutta&lt;/button&gt; &lt;button onclick="getDart('rk_ex1')"&gt;RK ex1&lt;/button&gt; &lt;button onclick="getDart('mass_spring_damping')"&gt;Mass Spring Damping&lt;/button&gt; &lt;button onclick="getDart('forCF')"&gt;forCF&lt;/button&gt;&lt;/p&gt;
-&lt;h4&gt;Html 程式&lt;/h4&gt;
-&lt;p&gt;&lt;button onclick="getHtmlDart('roc_flag')"&gt;ROC Flag&lt;/button&gt; &lt;button onclick="getHtmlDart('grid')"&gt;Grid&lt;/button&gt; &lt;button onclick="getHtmlDart('xyplot')"&gt;X-Y Plot&lt;/button&gt; &lt;button onclick="getHtmlDart('slithery')"&gt;Slithery&lt;/button&gt; &lt;button onclick="getHtmlDart('CF')"&gt;CF&lt;/button&gt; &lt;button onclick="getHtmlDart('random_grouping')"&gt;亂數分組&lt;/button&gt;&lt;/p&gt;
-&lt;h4&gt;Flutter 程式&lt;/h4&gt;
-&lt;p&gt;&lt;button onclick="getFlutter('flutter1')"&gt;Flutter1&lt;/button&gt; &lt;button onclick="getFlutter('flutter2')"&gt;Flutter2&lt;/button&gt; &lt;button onclick="getFlutter('flutter3')"&gt;Flutter3&lt;/button&gt;&lt;/p&gt;
-&lt;!-- 內建放入的 Dart 原始碼 --&gt;
-&lt;p&gt;&lt;button onclick="largest()"&gt;放大&lt;/button&gt; &lt;button onclick="original()"&gt;回復&lt;/button&gt;&lt;/p&gt;
-&lt;p&gt;&lt;br/&gt;&lt;iframe height="600" id="iframe" src="https://dartpad.dartlang.org/embed-dart.html?gh_owner=40823245&amp;amp;gh_repo=cp2019bg4&amp;amp;gh_path=downloads/dart_ex/mass_spring_damping&amp;amp;theme=dark" width="800"&gt;&lt;/iframe&gt;&lt;/p&gt;
-&lt;p&gt;溫度轉換&lt;/p&gt;
-&lt;p&gt;temperatures &lt;input id="temperatures" max="100" min="0" type="number" value="0"/&gt; °C &lt;input id="submit" type="button" value="Calculate"/&gt; &lt;br/&gt;°F: &lt;label id="output"&gt;&lt;/label&gt;&lt;/p&gt;
-&lt;script src="/. . /downloads/dart_ex/CF/CF.js"&gt;&lt;/script&gt;
-
-
-        
-    &lt;!-- footer --&gt;
-      &lt;div class="container"&gt;
-        &lt;div class="row pt-3 mx-auto"&gt;
-            &lt;p&gt;
-            &lt;!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --&gt;
-            Copyright &amp;copy;&lt;script&gt;document.write(new Date().getFullYear());&lt;/script&gt; All rights reserved | This template is made with &lt;i class="icon-heart" aria-hidden="true"&gt;&lt;/i&gt; by &lt;a href="https://colorlib.com" target="_blank" &gt;Colorlib&lt;/a&gt;
-            &lt;!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --&gt;
-            &lt;/p&gt;
-        &lt;/div&gt;
-      &lt;/div&gt;
-    &lt;!-- for footer --&gt;
+<t tx="leo.20200107211657.1">&lt;/title&gt;
+    &lt;meta name="description" content="A framework for easily creating beautiful presentations using HTML"&gt;
+    &lt;meta name="author" content="Hakim El Hattab"&gt;
     
-        &lt;/div&gt; &lt;!-- for site wrap --&gt;
-            &lt;!-- &lt;script src="../cmsimde/static/chimper/js/jquery-3.3.1.min.js"&gt;&lt;/script&gt; --&gt;
-            &lt;script src="../cmsimde/static/chimper/js/jquery-migrate-3.0.1.min.js"&gt;&lt;/script&gt;
-            &lt;script src="../cmsimde/static/chimper/js/jquery-ui.js"&gt;&lt;/script&gt;
-            &lt;script src="../cmsimde/static/chimper/js/popper.min.js"&gt;&lt;/script&gt;
-            &lt;script src="../cmsimde/static/chimper/js/bootstrap.min.js"&gt;&lt;/script&gt;
-            &lt;script src="../cmsimde/static/chimper/js/owl.carousel.min.js"&gt;&lt;/script&gt;
-            &lt;script src="../cmsimde/static/chimper/js/jquery.stellar.min.js"&gt;&lt;/script&gt;
-            &lt;script src="../cmsimde/static/chimper/js/jquery.countdown.min.js"&gt;&lt;/script&gt;
-            &lt;script src="../cmsimde/static/chimper/js/jquery.magnific-popup.min.js"&gt;&lt;/script&gt;
-            &lt;script src="../cmsimde/static/chimper/js/bootstrap-datepicker.min.js"&gt;&lt;/script&gt;
-            &lt;script src="../cmsimde/static/chimper/js/aos.js"&gt;&lt;/script&gt;
-            &lt;!--
-            &lt;script src="../cmsimde/static/chimper/js/typed.js"&gt;&lt;/script&gt;
-                    &lt;script&gt;
-                    var typed = new Typed('.typed-words', {
-                    strings: ["Web Apps"," WordPress"," Mobile Apps"],
-                    typeSpeed: 80,
-                    backSpeed: 80,
-                    backDelay: 4000,
-                    startDelay: 1000,
-                    loop: true,
-                    showCursor: true
-                    });
-                    &lt;/script&gt;
-            --&gt;
-            &lt;script src="../cmsimde/static/chimper/js/main.js"&gt;&lt;/script&gt;
-        &lt;/body&gt;&lt;/html&gt;</t>
+    &lt;meta name="apple-mobile-web-app-capable" content="yes"&gt;
+    &lt;meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"&gt;
+    
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"&gt;
+    
+    &lt;link rel="stylesheet" href="css/reveal.css"&gt;
+    &lt;link rel="stylesheet" href="css/theme/black.css" id="theme"&gt;
+    
+    &lt;!-- Theme used for syntax highlighting of code --&gt;
+    &lt;link rel="stylesheet" href="lib/css/zenburn.css"&gt;
+
+    &lt;!-- Printing and PDF exports --&gt;
+    &lt;script&gt;
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+    &lt;/script&gt;
+
+    &lt;!--[if lt IE 9]&gt;
+    &lt;script src="lib/js/html5shiv.js"&gt;&lt;/script&gt;
+    &lt;![endif]--&gt;
+&lt;/head&gt;
+</t>
+<t tx="leo.20200107215830.1">&lt;/title&gt;
+    &lt;meta name="description" content="A framework for easily creating beautiful presentations using HTML"&gt;
+    &lt;meta name="author" content="Hakim El Hattab"&gt;
+    
+    &lt;meta name="apple-mobile-web-app-capable" content="yes"&gt;
+    &lt;meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"&gt;
+    
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"&gt;
+    
+    &lt;link rel="stylesheet" href="css/reveal.css"&gt;
+    &lt;link rel="stylesheet" href="css/theme/black.css" id="theme"&gt;
+    
+    &lt;!-- Theme used for syntax highlighting of code --&gt;
+    &lt;link rel="stylesheet" href="lib/css/zenburn.css"&gt;
+
+    &lt;!-- Printing and PDF exports --&gt;
+    &lt;script&gt;
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+    &lt;/script&gt;
+
+    &lt;!--[if lt IE 9]&gt;
+    &lt;script src="lib/js/html5shiv.js"&gt;&lt;/script&gt;
+    &lt;![endif]--&gt;
+&lt;/head&gt;</t>
 </tnodes>
 </leo_file>

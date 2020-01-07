@@ -17,19 +17,26 @@
 <v t="leo.20180902120523.5"><vh>head</vh></v>
 <v t="leo.20180902120523.6"><vh>body</vh>
 <v t="leo.20180902120523.7"><vh>reveal div</vh>
+<v t="leo.20200107231543.1"><vh>slides div</vh>
+<v t="leo.20200107231538.1"><vh>個人網頁</vh></v>
+</v>
+<v t="leo.20200107231202.1"><vh>slides div</vh>
+<v t="leo.20200107231048.1"><vh>重量轉換</vh></v>
+</v>
+<v t="leo.20200107231119.1"><vh>slides div</vh>
+<v t="leo.20200107231234.1"><vh>自評方式</vh></v>
+</v>
+<v t="leo.20200107230925.1"><vh>slides div</vh>
+<v t="leo.20200107230926.1"><vh>blog</vh></v>
+</v>
+<v t="leo.20200107223155.1"><vh>slides div</vh>
 <v t="leo.20200107223300.1"><vh>溫度轉換</vh></v>
-<v t="leo.20200107223301.1"><vh>blog</vh></v>
-<v t="leo.20200107223301.2"><vh>自評方式</vh></v>
-<v t="leo.20200107223249.1"><vh>亂數分組</vh></v>
-<v t="leo.20200107223155.1"><vh> 重量轉換</vh></v>
+</v>
 <v t="leo.20180902120523.8"><vh>slides div</vh>
 <v t="leo.20180902120523.9"><vh>封面投影片</vh>
 <v t="leo.20180902120523.10"><vh>封面投影片內容</vh></v>
 </v>
 <v t="leo.20180902120523.13"><vh>課程內容</vh>
-<v t="leo.20180902120523.16"><vh>建立網頁</vh>
-<v t="leo.20180902120523.17"><vh>個人網頁</vh></v>
-</v>
 <v t="leo.20180902120523.14"><vh>課程目標</vh></v>
 </v>
 </v>
@@ -69,18 +76,6 @@ Created by [KMOLab](http://lab.kmol.info/)
 
 
 </t>
-<t tx="leo.20180902120523.16">
-
-
-
-						
-</t>
-<t tx="leo.20180902120523.17">&lt;head&gt;
-    &lt;meta charset="utf-8"&gt;
-&lt;title&gt;
-個人網頁
-&lt;/title&gt;
-&lt;iframe width="560" height="400" src="https://40823232.github.io/cp2019/content/index.html" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
 <t tx="leo.20180902120523.2">40823232</t>
 <t tx="leo.20180902120523.3">@language xml
 @tabwidth 40823232
@@ -95,7 +90,7 @@ Created by [KMOLab](http://lab.kmol.info/)
 <t tx="leo.20180902120523.5">&lt;head&gt;
     &lt;meta charset="utf-8"&gt;
 &lt;title&gt;
-40823232網誌
+40823232 個人網站管理
 &lt;/title&gt;
     &lt;meta name="description" content="A framework for easily creating beautiful presentations using HTML"&gt;
     &lt;meta name="author" content="Hakim El Hattab"&gt;
@@ -251,73 +246,10 @@ QLineEdit#editorLabel {
 }</t>
 <t tx="leo.20180902120538.3">horizontal: body pane to the left
 vertical: body pane on the botton</t>
-<t tx="leo.20200107223155.1">## 重量轉換
-&lt;head&gt;
-    &lt;meta charset="utf-8"&gt;
-&lt;title&gt;
-重量轉換
-&lt;/title&gt;
-    &lt;meta name="description" content="A framework for easily creating beautiful presentations using HTML"&gt;
-    &lt;meta name="author" content="Hakim El Hattab"&gt;
-    
-    &lt;meta name="apple-mobile-web-app-capable" content="yes"&gt;
-    &lt;meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"&gt;
-    
-    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"&gt;
-    
-    &lt;link rel="stylesheet" href="css/reveal.css"&gt;
-    &lt;link rel="stylesheet" href="css/theme/black.css" id="theme"&gt;
-    
-    &lt;!-- Theme used for syntax highlighting of code --&gt;
-    &lt;link rel="stylesheet" href="lib/css/zenburn.css"&gt;
-
-    &lt;!-- Printing and PDF exports --&gt;
-    &lt;script&gt;
-        var link = document.createElement( 'link' );
-        link.rel = 'stylesheet';
-        link.type = 'text/css';
-        link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
-        document.getElementsByTagName( 'head' )[0].appendChild( link );
-    &lt;/script&gt;
-
-    &lt;!--[if lt IE 9]&gt;
-    &lt;script src="lib/js/html5shiv.js"&gt;&lt;/script&gt;
-    &lt;![endif]--&gt;
-&lt;/head&gt;</t>
-<t tx="leo.20200107223249.1">&lt;!doctype html&gt;
-&lt;html lang="en"&gt;
-&lt;head&gt;
-    &lt;meta charset="utf-8"&gt;
-&lt;title&gt;
-40823232 個人網站管理
-&lt;/title&gt;
-    &lt;meta name="description" content="A framework for easily creating beautiful presentations using HTML"&gt;
-    &lt;meta name="author" content="Hakim El Hattab"&gt;
-    
-    &lt;meta name="apple-mobile-web-app-capable" content="yes"&gt;
-    &lt;meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"&gt;
-    
-    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"&gt;
-    
-    &lt;link rel="stylesheet" href="css/reveal.css"&gt;
-    &lt;link rel="stylesheet" href="css/theme/black.css" id="theme"&gt;
-    
-    &lt;!-- Theme used for syntax highlighting of code --&gt;
-    &lt;link rel="stylesheet" href="lib/css/zenburn.css"&gt;
-
-    &lt;!-- Printing and PDF exports --&gt;
-    &lt;script&gt;
-        var link = document.createElement( 'link' );
-        link.rel = 'stylesheet';
-        link.type = 'text/css';
-        link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
-        document.getElementsByTagName( 'head' )[0].appendChild( link );
-    &lt;/script&gt;
-
-    &lt;!--[if lt IE 9]&gt;
-    &lt;script src="lib/js/html5shiv.js"&gt;&lt;/script&gt;
-    &lt;![endif]--&gt;
-&lt;/head&gt;</t>
+<t tx="leo.20200107223155.1">&lt;!-- Any section element inside of this container is displayed as a slide --&gt;
+&lt;div class="slides"&gt;
+@others
+&lt;/div&gt;</t>
 <t tx="leo.20200107223300.1">## 溫度轉換
 &lt;head&gt;
     &lt;meta charset="utf-8"&gt;
@@ -352,7 +284,11 @@ vertical: body pane on the botton</t>
     &lt;![endif]--&gt;
 &lt;/head&gt;
 </t>
-<t tx="leo.20200107223301.1">## blog
+<t tx="leo.20200107230925.1">&lt;!-- Any section element inside of this container is displayed as a slide --&gt;
+&lt;div class="slides"&gt;
+@others
+&lt;/div&gt;</t>
+<t tx="leo.20200107230926.1">## blog
 &lt;head&gt;
     &lt;meta charset="utf-8"&gt;
  &lt;title&gt;
@@ -385,7 +321,48 @@ vertical: body pane on the botton</t>
     &lt;script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"&gt;&lt;/script&gt;
     &lt;script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"&gt;&lt;/script&gt;
   &lt;![endif]--&gt;</t>
-<t tx="leo.20200107223301.2">## 自評方式
+<t tx="leo.20200107231048.1">## 重量轉換
+&lt;head&gt;
+    &lt;meta charset="utf-8"&gt;
+&lt;title&gt;
+重量轉換
+&lt;/title&gt;
+    &lt;meta name="description" content="A framework for easily creating beautiful presentations using HTML"&gt;
+    &lt;meta name="author" content="Hakim El Hattab"&gt;
+    
+    &lt;meta name="apple-mobile-web-app-capable" content="yes"&gt;
+    &lt;meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"&gt;
+    
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"&gt;
+    
+    &lt;link rel="stylesheet" href="css/reveal.css"&gt;
+    &lt;link rel="stylesheet" href="css/theme/black.css" id="theme"&gt;
+    
+    &lt;!-- Theme used for syntax highlighting of code --&gt;
+    &lt;link rel="stylesheet" href="lib/css/zenburn.css"&gt;
+
+    &lt;!-- Printing and PDF exports --&gt;
+    &lt;script&gt;
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+    &lt;/script&gt;
+
+    &lt;!--[if lt IE 9]&gt;
+    &lt;script src="lib/js/html5shiv.js"&gt;&lt;/script&gt;
+    &lt;![endif]--&gt;
+&lt;/head&gt;</t>
+<t tx="leo.20200107231119.1">&lt;!-- Any section element inside of this container is displayed as a slide --&gt;
+&lt;div class="slides"&gt;
+@others
+&lt;/div&gt;</t>
+<t tx="leo.20200107231202.1">&lt;!-- Any section element inside of this container is displayed as a slide --&gt;
+&lt;div class="slides"&gt;
+@others
+&lt;/div&gt;</t>
+<t tx="leo.20200107231234.1">## 自評方式
 &lt;head&gt;
     &lt;meta charset="utf-8"&gt;
 &lt;title&gt;
@@ -393,5 +370,16 @@ vertical: body pane on the botton</t>
 &lt;/title&gt;
 利用此網址 https://forms.gle/hztfjHLkrAaLyntv6
 進行個人與組員之評分</t>
+<t tx="leo.20200107231538.1">## 個人網頁
+&lt;head&gt;
+    &lt;meta charset="utf-8"&gt;
+&lt;title&gt;
+個人網頁
+&lt;/title&gt;
+&lt;iframe width="560" height="315" src="https://40823232.github.io/cp2019/content/index.html" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20200107231543.1">&lt;!-- Any section element inside of this container is displayed as a slide --&gt;
+&lt;div class="slides"&gt;
+@others
+&lt;/div&gt;</t>
 </tnodes>
 </leo_file>

@@ -58,7 +58,8 @@ Created by [KMOLab](http://lab.kmol.info/)
 @others
 &lt;/section&gt;
 </t>
-<t tx="leo.20180902120523.14">&lt;head&gt;
+<t tx="leo.20180902120523.14">##課程目標
+&lt;head&gt;
     &lt;meta charset="utf-8"&gt;
 &lt;title&gt;
 課程目標
@@ -250,7 +251,8 @@ QLineEdit#editorLabel {
 }</t>
 <t tx="leo.20180902120538.3">horizontal: body pane to the left
 vertical: body pane on the botton</t>
-<t tx="leo.20200107222004.1">&lt;head&gt;
+<t tx="leo.20200107222004.1">## 重量轉換
+&lt;head&gt;
     &lt;meta charset="utf-8"&gt;
 &lt;title&gt;
 重量轉換
@@ -282,7 +284,8 @@ vertical: body pane on the botton</t>
     &lt;script src="lib/js/html5shiv.js"&gt;&lt;/script&gt;
     &lt;![endif]--&gt;
 &lt;/head&gt;</t>
-<t tx="leo.20200107222005.1">&lt;head&gt;
+<t tx="leo.20200107222005.1">## 溫度轉換
+&lt;head&gt;
     &lt;meta charset="utf-8"&gt;
 &lt;title&gt;
 溫度轉換
@@ -315,7 +318,8 @@ vertical: body pane on the botton</t>
     &lt;![endif]--&gt;
 &lt;/head&gt;
 </t>
-<t tx="leo.20200107222005.2">&lt;head&gt;
+<t tx="leo.20200107222005.2">## blog
+&lt;head&gt;
     &lt;meta charset="utf-8"&gt;
  &lt;title&gt;
  CP2019 計算機程式 40823232
@@ -347,14 +351,16 @@ vertical: body pane on the botton</t>
     &lt;script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"&gt;&lt;/script&gt;
     &lt;script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"&gt;&lt;/script&gt;
   &lt;![endif]--&gt;</t>
-<t tx="leo.20200107222006.1">&lt;head&gt;
+<t tx="leo.20200107222006.1">## 自評方式
+&lt;head&gt;
     &lt;meta charset="utf-8"&gt;
 &lt;title&gt;
 自評方式
 &lt;/title&gt;
 利用此網址 https://forms.gle/hztfjHLkrAaLyntv6
 進行個人與組員之評分</t>
-<t tx="leo.20200107222008.1">&lt;head&gt;
+<t tx="leo.20200107222008.1">##亂數分組
+&lt;head&gt;
     &lt;meta charset="utf-8"&gt;
 &lt;title&gt;
 亂數分組

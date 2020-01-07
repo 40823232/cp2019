@@ -59,34 +59,62 @@ Created by [KMOLab](http://lab.kmol.info/)
 @others
 &lt;/section&gt;
 </t>
-<t tx="leo.20180902120523.14">使用可攜程式系統、網際內容管理系統與 Github, 管理各學員與分組學習內容, 同時利用 Dart 程式語言, 設法打造可用於電腦輔助機械設計流程的工具.
+<t tx="leo.20180902120523.14">@language md
+---
+Title: 課程目標
+Date: 2019-11-07 21:00
+Category: Misc
+Slug: embedded-dartpad-to-blog
+Author: 40823232
+---
+使用可攜程式系統、網際內容管理系統與 Github, 管理各學員與分組學習內容, 同時利用 Dart 程式語言, 設法打造可用於電腦輔助機械設計流程的工具.
 
 
 
 </t>
-<t tx="leo.20180902120523.16">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-&lt;!-- 請注意, @others 不可以內縮 --&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
+<t tx="leo.20180902120523.16">@language md
+---
+Title: 建立網頁
+Date: 2019-11-07 21:00
+Category: Misc
+Slug: embedded-dartpad-to-blog
+Author: 40823232
+---
 
 
 
 						
 </t>
-<t tx="leo.20180902120523.17">&lt;iframe width="560" height="315" src="https://40823232.github.io/cp2019/content/index.html" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
-<t tx="leo.20180902120523.18">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
+<t tx="leo.20180902120523.17">@language md
+---
+Title:個人網頁
+Date: 2019-11-07 21:00
+Category: Misc
+Slug: embedded-dartpad-to-blog
+Author: 40823232
+---
+&lt;iframe width="560" height="400" src="https://40823232.github.io/cp2019/content/index.html" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20180902120523.18">@language md
+---
+Title: 課程任務
+Date: 2019-11-07 21:00
+Category: Misc
+Slug: embedded-dartpad-to-blog
+Author: 40823232
+---
 
 						
 </t>
-<t tx="leo.20180902120523.19">&lt;p&gt;亂數分組&lt;/p&gt;
-&lt;p&gt;學員名單 URL: &lt;input id="studListUrl" size="50" type="text" value="https://mde.tw/cp2019/downloads/2019fall_cp_1b_list.txt"/&gt;&lt;br/&gt; 每組人數: &lt;input id="grpNum" size="3" type="text" value="10"/&gt;&lt;br/&gt; &lt;input id="submit" type="submit" value="開始分組"/&gt;&lt;br/&gt; &lt;label id="output"&gt;&lt;/label&gt;&lt;/p&gt;
+<t tx="leo.20180902120523.19">@language md
+---
+Title: 亂數分組
+Date: 2019-11-07 21:00
+Category: Misc
+Slug: embedded-dartpad-to-blog
+Author: 40823232
+---
+&lt;p&gt;亂數分組&lt;/p&gt;
+&lt;p&gt;學員名單 URL: &lt;input id="studListUrl" size="50" type="text" value="https://mde.tw/cp2019/downloads/2019fall_cp_1b_list.txt"/&gt;&lt;br/&gt; 每組人數: &lt;input id="grpNum" size="3" type="tex" value="10"/&gt;&lt;br/&gt; &lt;input id="submit" type="submit" value="開始分組"/&gt;&lt;br/&gt; &lt;label id="output"&gt;&lt;/label&gt;&lt;/p&gt;
 &lt;p&gt;&lt;/p&gt;
 &lt;script src="./../downloads/dart_ex/random_grouping/random_grouping.js"&gt;&lt;/script&gt;
 &lt;p&gt;&lt;/p&gt;
@@ -309,10 +337,34 @@ QLineEdit#editorLabel {
 }</t>
 <t tx="leo.20180902120538.3">horizontal: body pane to the left
 vertical: body pane on the botton</t>
-<t tx="leo.20200107211205.1">&lt;iframe width="560" height="315" src="https://40823232.github.io/cp2019/blog/index.html" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
-<t tx="leo.20200107211210.1">利用此網址 https://forms.gle/hztfjHLkrAaLyntv6
+<t tx="leo.20200107211205.1">@language md
+---
+Title: blog
+Date: 2019-11-07 21:00
+Category: Misc
+Slug: embedded-dartpad-to-blog
+Author: 40823232
+---
+&lt;iframe width="560" height="400" src="https://40823232.github.io/cp2019/blog/" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20200107211210.1">@language md
+---
+Title: 自評方式
+Date: 2019-11-07 21:00
+Category: Misc
+Slug: embedded-dartpad-to-blog
+Author: 40823232
+---
+利用此網址 https://forms.gle/hztfjHLkrAaLyntv6
 進行個人與組員之評分</t>
-<t tx="leo.20200107211657.1">&lt;/script&gt;
+<t tx="leo.20200107211657.1">@language md
+---
+Title: 溫度轉換
+Date: 2019-11-07 21:00
+Category: Misc
+Slug: embedded-dartpad-to-blog
+Author: 40823232
+---
+&lt;/script&gt;
 &lt;!-- 取 Dart 程式的按鈕 --&gt;
 &lt;h4&gt;&lt;/h4&gt;
 &lt;!-- 取 Dart 程式的按鈕 --&gt;

@@ -18,6 +18,11 @@
 <v t="leo.20180902120523.6"><vh>body</vh>
 <v t="leo.20180902120523.7"><vh>reveal div</vh>
 <v t="leo.20180902120523.8"><vh>slides div</vh>
+<v t="leo.20200107221125.1"><vh>亂數分組</vh></v>
+<v t="leo.20200107220926.1"><vh>溫度轉換</vh></v>
+<v t="leo.20200107220928.1"><vh>重量轉換</vh></v>
+<v t="leo.20200107220929.1"><vh>blog</vh></v>
+<v t="leo.20200107220929.2"><vh>自評方式</vh></v>
 <v t="leo.20180902120523.9"><vh>封面投影片</vh>
 <v t="leo.20180902120523.10"><vh>封面投影片內容</vh></v>
 </v>
@@ -26,13 +31,7 @@
 <v t="leo.20180902120523.16"><vh>建立網頁</vh>
 <v t="leo.20180902120523.17"><vh>個人網頁</vh></v>
 </v>
-<v t="leo.20180902120523.18"><vh>課程任務</vh>
-<v t="leo.20200107215830.1"><vh>重量轉換</vh></v>
-<v t="leo.20200107211657.1"><vh>溫度轉換</vh></v>
-<v t="leo.20200107211205.1"><vh>blog</vh></v>
-<v t="leo.20200107211210.1"><vh>自評方式</vh></v>
-<v t="leo.20180902120523.19"><vh>亂數分組</vh></v>
-</v>
+<v t="leo.20180902120523.18"><vh>課程任務</vh></v>
 </v>
 </v>
 </v>
@@ -60,81 +59,23 @@ Created by [KMOLab](http://lab.kmol.info/)
 @others
 &lt;/section&gt;
 </t>
-<t tx="leo.20180902120523.14">@language md
----
-Title: 課程目標
-Date: 2019-11-07 21:00
-Category: Misc
-Slug: embedded-dartpad-to-blog
-Author: 40823232
----
+<t tx="leo.20180902120523.14">
 使用可攜程式系統、網際內容管理系統與 Github, 管理各學員與分組學習內容, 同時利用 Dart 程式語言, 設法打造可用於電腦輔助機械設計流程的工具.
 
 
 
 </t>
-<t tx="leo.20180902120523.16">@language md
----
-Title: 建立網頁
-Date: 2019-11-07 21:00
-Category: Misc
-Slug: embedded-dartpad-to-blog
-Author: 40823232
----
+<t tx="leo.20180902120523.16">
 
 
 
 						
 </t>
-<t tx="leo.20180902120523.17">@language md
----
-Title:個人網頁
-Date: 2019-11-07 21:00
-Category: Misc
-Slug: embedded-dartpad-to-blog
-Author: 40823232
----
+<t tx="leo.20180902120523.17">
 &lt;iframe width="560" height="400" src="https://40823232.github.io/cp2019/content/index.html" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
-<t tx="leo.20180902120523.18">@language md
----
-Title: 課程任務
-Date: 2019-11-07 21:00
-Category: Misc
-Slug: embedded-dartpad-to-blog
-Author: 40823232
----
+<t tx="leo.20180902120523.18">
 
 						
-</t>
-<t tx="leo.20180902120523.19">&lt;/title&gt;
-    &lt;meta name="description" content="A framework for easily creating beautiful presentations using HTML"&gt;
-    &lt;meta name="author" content="Hakim El Hattab"&gt;
-    
-    &lt;meta name="apple-mobile-web-app-capable" content="yes"&gt;
-    &lt;meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"&gt;
-    
-    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"&gt;
-    
-    &lt;link rel="stylesheet" href="css/reveal.css"&gt;
-    &lt;link rel="stylesheet" href="css/theme/black.css" id="theme"&gt;
-    
-    &lt;!-- Theme used for syntax highlighting of code --&gt;
-    &lt;link rel="stylesheet" href="lib/css/zenburn.css"&gt;
-
-    &lt;!-- Printing and PDF exports --&gt;
-    &lt;script&gt;
-        var link = document.createElement( 'link' );
-        link.rel = 'stylesheet';
-        link.type = 'text/css';
-        link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
-        document.getElementsByTagName( 'head' )[0].appendChild( link );
-    &lt;/script&gt;
-
-    &lt;!--[if lt IE 9]&gt;
-    &lt;script src="lib/js/html5shiv.js"&gt;&lt;/script&gt;
-    &lt;![endif]--&gt;
-&lt;/head&gt;
-
 </t>
 <t tx="leo.20180902120523.2">40823232</t>
 <t tx="leo.20180902120523.3">@language xml
@@ -306,47 +247,11 @@ QLineEdit#editorLabel {
 }</t>
 <t tx="leo.20180902120538.3">horizontal: body pane to the left
 vertical: body pane on the botton</t>
-<t tx="leo.20200107211205.1">&lt;head&gt;
-      &lt;meta charset="utf-8"&gt;
-  &lt;meta http-equiv="Content-Type" content="text/html" charset="UTF-8" /&gt;
-  &lt;meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /&gt;
-
-
-  &lt;title&gt;CP2019 計算機程式 40823232&lt;/title&gt;
-
-
-  &lt;meta name="HandheldFriendly" content="True" /&gt;
-  &lt;meta name="viewport" content="width=device-width, initial-scale=1.0" /&gt;
-  &lt;meta name="referrer" content="origin" /&gt;
-  &lt;meta name="generator" content="Pelican" /&gt;
-  &lt;link href="https://40823232.github.io/cp2019/blog/" rel="canonical" /&gt;
-
-  &lt;!-- Feed --&gt;
-        &lt;link href="https://40823232.github.io/cp2019/blog/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="CP2019 計算機程式 40823232 Full Atom Feed" /&gt;
-
-  &lt;link href="https://40823232.github.io/cp2019/blog/theme/css/style.css" type="text/css" rel="stylesheet" /&gt;
-
-  &lt;!-- Code highlight color scheme --&gt;
-      &lt;link href="https://40823232.github.io/cp2019/blog/theme/css/code_blocks/tomorrow_night.css" rel="stylesheet"&gt;
-
-  
-    &lt;link href="https://40823232.github.io/cp2019/blog/theme/tipuesearch/tipuesearch.css" rel="stylesheet"&gt;
-
-  &lt;!-- Custom fonts --&gt;
-  &lt;link href='https://fonts.googleapis.com/css?family=Montserrat:400,300' rel='stylesheet' type='text/css' /&gt;
-  &lt;link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css" /&gt;
-
-  &lt;!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries --&gt;
-  &lt;!-- WARNING: Respond.js doesn't work if you view the page via file:// --&gt;
-  &lt;!--[if lt IE 9]&gt;
-    &lt;script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"&gt;&lt;/script&gt;
-    &lt;script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"&gt;&lt;/script&gt;
-  &lt;![endif]--&gt;</t>
-<t tx="leo.20200107211210.1">&lt;head&gt;
+<t tx="leo.20200107220926.1">&lt;head&gt;
     &lt;meta charset="utf-8"&gt;
-利用此網址 https://forms.gle/hztfjHLkrAaLyntv6
-進行個人與組員之評分</t>
-<t tx="leo.20200107211657.1">&lt;/title&gt;
+&lt;title&gt;
+溫度轉換
+&lt;/title&gt;
     &lt;meta name="description" content="A framework for easily creating beautiful presentations using HTML"&gt;
     &lt;meta name="author" content="Hakim El Hattab"&gt;
     
@@ -375,7 +280,11 @@ vertical: body pane on the botton</t>
     &lt;![endif]--&gt;
 &lt;/head&gt;
 </t>
-<t tx="leo.20200107215830.1">&lt;/title&gt;
+<t tx="leo.20200107220928.1">&lt;head&gt;
+    &lt;meta charset="utf-8"&gt;
+&lt;title&gt;
+重量轉換
+&lt;/title&gt;
     &lt;meta name="description" content="A framework for easily creating beautiful presentations using HTML"&gt;
     &lt;meta name="author" content="Hakim El Hattab"&gt;
     
@@ -403,5 +312,78 @@ vertical: body pane on the botton</t>
     &lt;script src="lib/js/html5shiv.js"&gt;&lt;/script&gt;
     &lt;![endif]--&gt;
 &lt;/head&gt;</t>
+<t tx="leo.20200107220929.1">&lt;head&gt;
+    &lt;meta charset="utf-8"&gt;
+ &lt;title&gt;
+ CP2019 計算機程式 40823232
+ &lt;/title&gt;
+ &lt;meta name="HandheldFriendly" content="True" /&gt;
+ &lt;meta name="viewport" content="width=device-width, initial-scale=1.0" /&gt;
+  &lt;meta name="referrer" content="origin" /&gt;
+  &lt;meta name="generator" content="Pelican" /&gt;
+  &lt;link href="https://40823232.github.io/cp2019/blog/" rel="canonical" /&gt;
+
+  &lt;!-- Feed --&gt;
+        &lt;link href="https://40823232.github.io/cp2019/blog/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="CP2019 計算機程式 40823232 Full Atom Feed" /&gt;
+
+  &lt;link href="https://40823232.github.io/cp2019/blog/theme/css/style.css" type="text/css" rel="stylesheet" /&gt;
+
+  &lt;!-- Code highlight color scheme --&gt;
+      &lt;link href="https://40823232.github.io/cp2019/blog/theme/css/code_blocks/tomorrow_night.css" rel="stylesheet"&gt;
+
+  
+    &lt;link href="https://40823232.github.io/cp2019/blog/theme/tipuesearch/tipuesearch.css" rel="stylesheet"&gt;
+
+  &lt;!-- Custom fonts --&gt;
+  &lt;link href='https://fonts.googleapis.com/css?family=Montserrat:400,300' rel='stylesheet' type='text/css' /&gt;
+  &lt;link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css" /&gt;
+
+  &lt;!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries --&gt;
+  &lt;!-- WARNING: Respond.js doesn't work if you view the page via file:// --&gt;
+  &lt;!--[if lt IE 9]&gt;
+    &lt;script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"&gt;&lt;/script&gt;
+    &lt;script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"&gt;&lt;/script&gt;
+  &lt;![endif]--&gt;</t>
+<t tx="leo.20200107220929.2">&lt;head&gt;
+    &lt;meta charset="utf-8"&gt;
+&lt;title&gt;
+自評方式
+&lt;/title&gt;
+利用此網址 https://forms.gle/hztfjHLkrAaLyntv6
+進行個人與組員之評分</t>
+<t tx="leo.20200107221125.1">&lt;head&gt;
+    &lt;meta charset="utf-8"&gt;
+&lt;title&gt;
+亂數分組
+&lt;/title&gt;
+    &lt;meta name="description" content="A framework for easily creating beautiful presentations using HTML"&gt;
+    &lt;meta name="author" content="Hakim El Hattab"&gt;
+    
+    &lt;meta name="apple-mobile-web-app-capable" content="yes"&gt;
+    &lt;meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"&gt;
+    
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"&gt;
+    
+    &lt;link rel="stylesheet" href="css/reveal.css"&gt;
+    &lt;link rel="stylesheet" href="css/theme/black.css" id="theme"&gt;
+    
+    &lt;!-- Theme used for syntax highlighting of code --&gt;
+    &lt;link rel="stylesheet" href="lib/css/zenburn.css"&gt;
+
+    &lt;!-- Printing and PDF exports --&gt;
+    &lt;script&gt;
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+    &lt;/script&gt;
+
+    &lt;!--[if lt IE 9]&gt;
+    &lt;script src="lib/js/html5shiv.js"&gt;&lt;/script&gt;
+    &lt;![endif]--&gt;
+&lt;/head&gt;
+
+</t>
 </tnodes>
 </leo_file>

@@ -17,9 +17,6 @@
 <v t="leo.20180902120523.5"><vh>head</vh></v>
 <v t="leo.20180902120523.6"><vh>body</vh>
 <v t="leo.20180902120523.7"><vh>reveal div</vh>
-<v t="leo.20200107231543.1"><vh>slides div</vh>
-<v t="leo.20200107231538.1"><vh>個人網頁</vh></v>
-</v>
 <v t="leo.20200107231202.1"><vh>slides div</vh>
 <v t="leo.20200107231048.1"><vh>重量轉換</vh></v>
 </v>
@@ -370,16 +367,5 @@ vertical: body pane on the botton</t>
 &lt;/title&gt;
 利用此網址 https://forms.gle/hztfjHLkrAaLyntv6
 進行個人與組員之評分</t>
-<t tx="leo.20200107231538.1">## 個人網頁
-&lt;head&gt;
-    &lt;meta charset="utf-8"&gt;
-&lt;title&gt;
-個人網頁
-&lt;/title&gt;
-&lt;iframe width="560" height="315" src="https://40823232.github.io/cp2019/content/index.html" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
-<t tx="leo.20200107231543.1">&lt;!-- Any section element inside of this container is displayed as a slide --&gt;
-&lt;div class="slides"&gt;
-@others
-&lt;/div&gt;</t>
 </tnodes>
 </leo_file>

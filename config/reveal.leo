@@ -46,7 +46,7 @@
 </vnodes>
 <tnodes>
 <t tx="leo.20180902120523.1"></t>
-<t tx="leo.20180902120523.10">## 40823232 網際內容管理
+<t tx="leo.20180902120523.10">## 40823232 個人網站管理
 
 ### KMOLab
 
@@ -57,21 +57,72 @@ Created by [KMOLab](http://lab.kmol.info/)
 [40823232 網誌](./../blog/index.html)
 
 
-</t>
-<t tx="leo.20180902120523.13">&lt;section&gt;
+&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+# 個人網站
+&lt;iframe width="800" height="550" src="https://40823232.github.io/cp2019/content/index.html" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+
+
+
+			
+&lt;section&gt;
+&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+# 重量轉換
+&lt;iframe width="800" height="550" src="https://dartpad.github.io/embed-html.html?gh_owner=40823232&amp;gh_repo=cp2019&amp;gh_path=downloads/dart_ex/weight_change&amp;theme=dark" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+# 溫度轉換
+&lt;iframe width="800" height="550" src="https://dartpad.github.io/embed-html.html?gh_owner=40823232&amp;gh_repo=cp2019&amp;gh_path=downloads/dart_ex/CF&amp;theme=dark" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+#心得
+在這個從未接觸的課程裡、我經由課堂上的內容慢慢增加自己的程式應用，像是單位的轉換，畫圖等等.....希望將來能利用所學來充實自己。</t>
+<t tx="leo.20180902120523.13">&lt;section data-markdown&gt;
 @others
 &lt;/section&gt;
+
+
+						
 </t>
-<t tx="leo.20180902120523.14">##課程目標
-&lt;head&gt;
-    &lt;meta charset="utf-8"&gt;
-&lt;title&gt;
-課程目標
-&lt;/title&gt;
-使用可攜程式系統、網際內容管理系統與 Github, 管理各學員與分組學習內容, 同時利用 Dart 程式語言, 設法打造可用於電腦輔助機械設計流程的工具.
+<t tx="leo.20180902120523.14">    &lt;script type="text/template"&gt;
+# 亂數分組
+&lt;iframe width="800" height="550" src="https://dartpad.github.io/embed-html.html?gh_owner=40823232&amp;gh_repo=cp2019&amp;gh_path=downloads/dart_ex/random_grouping&amp;theme=dark" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+# 各國國旗
+&lt;iframe width="800" height="550" src="https://dartpad.github.io/embed-html.html?gh_owner=40823232&amp;gh_repo=cp2019&amp;gh_path=downloads/dart_ex/flag&amp;theme=dark" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+&lt;/section&gt;
 
 
 
+
+						
+    &lt;/script&gt;
 </t>
 <t tx="leo.20180902120523.2">40823232</t>
 <t tx="leo.20180902120523.3">@language xml
@@ -129,9 +180,7 @@ Created by [KMOLab](http://lab.kmol.info/)
             progress: true,
             history: true,
             center: true,
-
             transition: 'slide', // none/fade/slide/convex/concave/zoom
-
             // More info https://github.com/hakimel/reveal.js#dependencies
             dependencies: [
                 { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
@@ -152,9 +201,7 @@ Created by [KMOLab](http://lab.kmol.info/)
 &lt;/div&gt;
 
 </t>
-<t tx="leo.20180902120523.8">&lt;!-- Any section element inside of this container is displayed as a slide --&gt;
-&lt;div class="slides"&gt;
-@others
+<t tx="leo.20180902120523.8">@others
 &lt;/div&gt;
 
 </t>
@@ -243,129 +290,19 @@ QLineEdit#editorLabel {
 }</t>
 <t tx="leo.20180902120538.3">horizontal: body pane to the left
 vertical: body pane on the botton</t>
-<t tx="leo.20200107223155.1">&lt;!-- Any section element inside of this container is displayed as a slide --&gt;
-&lt;div class="slides"&gt;
-@others
-&lt;/div&gt;</t>
-<t tx="leo.20200107223300.1">## 溫度轉換
-&lt;head&gt;
-    &lt;meta charset="utf-8"&gt;
-&lt;title&gt;
-溫度轉換
-&lt;/title&gt;
-    &lt;meta name="description" content="A framework for easily creating beautiful presentations using HTML"&gt;
-    &lt;meta name="author" content="Hakim El Hattab"&gt;
-    
-    &lt;meta name="apple-mobile-web-app-capable" content="yes"&gt;
-    &lt;meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"&gt;
-    
-    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"&gt;
-    
-    &lt;link rel="stylesheet" href="css/reveal.css"&gt;
-    &lt;link rel="stylesheet" href="css/theme/black.css" id="theme"&gt;
-    
-    &lt;!-- Theme used for syntax highlighting of code --&gt;
-    &lt;link rel="stylesheet" href="lib/css/zenburn.css"&gt;
-
-    &lt;!-- Printing and PDF exports --&gt;
-    &lt;script&gt;
-        var link = document.createElement( 'link' );
-        link.rel = 'stylesheet';
-        link.type = 'text/css';
-        link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
-        document.getElementsByTagName( 'head' )[0].appendChild( link );
-    &lt;/script&gt;
-
-    &lt;!--[if lt IE 9]&gt;
-    &lt;script src="lib/js/html5shiv.js"&gt;&lt;/script&gt;
-    &lt;![endif]--&gt;
-&lt;/head&gt;
+<t tx="leo.20200107223155.1">@others
 </t>
-<t tx="leo.20200107230925.1">&lt;!-- Any section element inside of this container is displayed as a slide --&gt;
-&lt;div class="slides"&gt;
-@others
-&lt;/div&gt;</t>
-<t tx="leo.20200107230926.1">## blog
-&lt;head&gt;
-    &lt;meta charset="utf-8"&gt;
- &lt;title&gt;
- CP2019 計算機程式 40823232
- &lt;/title&gt;
- &lt;meta name="HandheldFriendly" content="True" /&gt;
- &lt;meta name="viewport" content="width=device-width, initial-scale=1.0" /&gt;
-  &lt;meta name="referrer" content="origin" /&gt;
-  &lt;meta name="generator" content="Pelican" /&gt;
-  &lt;link href="https://40823232.github.io/cp2019/blog/" rel="canonical" /&gt;
-
-  &lt;!-- Feed --&gt;
-        &lt;link href="https://40823232.github.io/cp2019/blog/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="CP2019 計算機程式 40823232 Full Atom Feed" /&gt;
-
-  &lt;link href="https://40823232.github.io/cp2019/blog/theme/css/style.css" type="text/css" rel="stylesheet" /&gt;
-
-  &lt;!-- Code highlight color scheme --&gt;
-      &lt;link href="https://40823232.github.io/cp2019/blog/theme/css/code_blocks/tomorrow_night.css" rel="stylesheet"&gt;
-
-  
-    &lt;link href="https://40823232.github.io/cp2019/blog/theme/tipuesearch/tipuesearch.css" rel="stylesheet"&gt;
-
-  &lt;!-- Custom fonts --&gt;
-  &lt;link href='https://fonts.googleapis.com/css?family=Montserrat:400,300' rel='stylesheet' type='text/css' /&gt;
-  &lt;link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css" /&gt;
-
-  &lt;!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries --&gt;
-  &lt;!-- WARNING: Respond.js doesn't work if you view the page via file:// --&gt;
-  &lt;!--[if lt IE 9]&gt;
-    &lt;script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"&gt;&lt;/script&gt;
-    &lt;script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"&gt;&lt;/script&gt;
-  &lt;![endif]--&gt;</t>
-<t tx="leo.20200107231048.1">## 重量轉換
-&lt;head&gt;
-    &lt;meta charset="utf-8"&gt;
-&lt;title&gt;
-重量轉換
-&lt;/title&gt;
-    &lt;meta name="description" content="A framework for easily creating beautiful presentations using HTML"&gt;
-    &lt;meta name="author" content="Hakim El Hattab"&gt;
-    
-    &lt;meta name="apple-mobile-web-app-capable" content="yes"&gt;
-    &lt;meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"&gt;
-    
-    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"&gt;
-    
-    &lt;link rel="stylesheet" href="css/reveal.css"&gt;
-    &lt;link rel="stylesheet" href="css/theme/black.css" id="theme"&gt;
-    
-    &lt;!-- Theme used for syntax highlighting of code --&gt;
-    &lt;link rel="stylesheet" href="lib/css/zenburn.css"&gt;
-
-    &lt;!-- Printing and PDF exports --&gt;
-    &lt;script&gt;
-        var link = document.createElement( 'link' );
-        link.rel = 'stylesheet';
-        link.type = 'text/css';
-        link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
-        document.getElementsByTagName( 'head' )[0].appendChild( link );
-    &lt;/script&gt;
-
-    &lt;!--[if lt IE 9]&gt;
-    &lt;script src="lib/js/html5shiv.js"&gt;&lt;/script&gt;
-    &lt;![endif]--&gt;
-&lt;/head&gt;</t>
-<t tx="leo.20200107231119.1">&lt;!-- Any section element inside of this container is displayed as a slide --&gt;
-&lt;div class="slides"&gt;
-@others
-&lt;/div&gt;</t>
+<t tx="leo.20200107223300.1"></t>
+<t tx="leo.20200107230925.1">@others
+</t>
+<t tx="leo.20200107230926.1"></t>
+<t tx="leo.20200107231048.1"></t>
+<t tx="leo.20200107231119.1">@others
+</t>
 <t tx="leo.20200107231202.1">&lt;!-- Any section element inside of this container is displayed as a slide --&gt;
 &lt;div class="slides"&gt;
 @others
-&lt;/div&gt;</t>
-<t tx="leo.20200107231234.1">## 自評方式
-&lt;head&gt;
-    &lt;meta charset="utf-8"&gt;
-&lt;title&gt;
-自評方式
-&lt;/title&gt;
-利用此網址 https://forms.gle/hztfjHLkrAaLyntv6
-進行個人與組員之評分</t>
+</t>
+<t tx="leo.20200107231234.1"></t>
 </tnodes>
 </leo_file>

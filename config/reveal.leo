@@ -21,19 +21,8 @@
 <v t="leo.20180902120523.9"><vh>封面投影片</vh>
 <v t="leo.20180902120523.10"><vh>封面投影片內容</vh></v>
 </v>
-<v t="leo.20180902120523.13"><vh>各式內容引用範例</vh>
-<v t="leo.20200109003017.1"><vh>new2</vh>
-<v t="leo.20200109003017.2"><vh>重量轉換</vh></v>
-</v>
-<v t="leo.20200109002725.1"><vh>new3</vh>
-<v t="leo.20200109002725.2"><vh>溫度轉換</vh></v>
-</v>
-<v t="leo.20200109002729.1"><vh>new4</vh>
-<v t="leo.20200109002729.2"><vh>亂數分組</vh></v>
-</v>
-<v t="leo.20200108234208.1"><vh>new1</vh>
-<v t="leo.20200108234208.2"><vh>心得</vh></v>
-</v>
+<v t="leo.20180902120523.13"><vh>課程內容</vh>
+<v t="leo.20180902120523.14"><vh>課程目標</vh></v>
 </v>
 </v>
 </v>
@@ -60,18 +49,47 @@ Created by [KMOLab](http://lab.kmol.info/)
     &lt;script type="text/template"&gt;
 # 個人網站
 &lt;iframe width="800" height="550" src="https://40823232.github.io/cp2019/content/index.html" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
-</t>
-<t tx="leo.20180902120523.13">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
     &lt;/script&gt;
 &lt;/section&gt;
 
+
+
+						
+&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+# 重量轉換
+&lt;iframe width="800" height="550" src="https://dartpad.github.io/embed-html.html?gh_owner=40823232&amp;gh_repo=cp2019&amp;gh_path=downloads/dart_ex/weight_change&amp;theme=dark" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+
+
+						
+&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+# 溫度轉換
+&lt;iframe width="800" height="550" src="https://dartpad.github.io/embed-html.html?gh_owner=40823232&amp;gh_repo=cp2019&amp;gh_path=downloads/dart_ex/CF&amp;theme=dark" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+						
+&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+# 亂數分組
+&lt;iframe width="800" height="550" src="https://dartpad.github.io/embed-html.html?gh_owner=40823232&amp;gh_repo=cp2019&amp;gh_path=downloads/dart_ex/random_grouping&amp;theme=dark" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+#心得
+在這個從未接觸的課程裡、我經由課堂上的內容慢慢增加自己的程式應用，像是單位的轉換，畫圖等等.....。也會錄製影片來上字幕，並將影片嵌入網頁裡，讓我學到了很多。
 						
 </t>
-<t tx="leo.20180902120523.2"></t>
+<t tx="leo.20180902120523.13">@others
+						
+</t>
+<t tx="leo.20180902120523.14"></t>
+<t tx="leo.20180902120523.2">40823232</t>
 <t tx="leo.20180902120523.3">@language xml
-@tabwidth -4
+@tabwidth 40823232
 @others
 
 </t>
@@ -146,9 +164,7 @@ Created by [KMOLab](http://lab.kmol.info/)
 &lt;/div&gt;
 
 </t>
-<t tx="leo.20180902120523.8">&lt;!-- Any section element inside of this container is displayed as a slide --&gt;
-&lt;div class="slides"&gt;
-@others
+<t tx="leo.20180902120523.8">@others
 &lt;/div&gt;
 
 </t>
@@ -158,9 +174,6 @@ Created by [KMOLab](http://lab.kmol.info/)
     &lt;/script&gt;
 &lt;/section&gt;
 
-
-
-						
 </t>
 <t tx="leo.20180902120538.1"></t>
 <t tx="leo.20180902120538.2">QTreeWidget {
@@ -238,39 +251,5 @@ QLineEdit#editorLabel {
 }</t>
 <t tx="leo.20180902120538.3">horizontal: body pane to the left
 vertical: body pane on the botton</t>
-<t tx="leo.20200108234208.1">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-&lt;!-- 請注意, @others 不可以內縮 --&gt;
-@others
-						
-</t>
-<t tx="leo.20200108234208.2">#心得
-在這個從未接觸的課程裡、我經由課堂上的內容慢慢增加自己的程式應用，像是單位的轉換，畫圖等等.....。也會錄製影片來上字幕，並將影片嵌入網頁裡，讓我學到了很多。</t>
-<t tx="leo.20200109002725.1">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-&lt;!-- 請注意, @others 不可以內縮 --&gt;
-@others
-						
-</t>
-<t tx="leo.20200109002725.2"># 溫度轉換
-&lt;iframe width="800" height="550" src="https://dartpad.github.io/embed-html.html?gh_owner=40823232&amp;gh_repo=cp2019&amp;gh_path=downloads/dart_ex/CF&amp;theme=dark" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
-</t>
-<t tx="leo.20200109002729.1">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-&lt;!-- 請注意, @others 不可以內縮 --&gt;
-@others</t>
-<t tx="leo.20200109002729.2"># 亂數分組
-&lt;iframe width="800" height="550" src="https://dartpad.github.io/embed-html.html?gh_owner=40823232&amp;gh_repo=cp2019&amp;gh_path=downloads/dart_ex/random_grouping&amp;theme=dark" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
-<t tx="leo.20200109003017.1">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-&lt;!-- 請注意, @others 不可以內縮 --&gt;
-@others
-
-
-						
-</t>
-<t tx="leo.20200109003017.2"># 重量轉換
-&lt;iframe width="800" height="550" src="https://dartpad.github.io/embed-html.html?gh_owner=40823232&amp;gh_repo=cp2019&amp;gh_path=downloads/dart_ex/weight_change&amp;theme=dark" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
-</t>
 </tnodes>
 </leo_file>

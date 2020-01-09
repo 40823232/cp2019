@@ -91,7 +91,7 @@ Created by [KMOLab](http://lab.kmol.info/)
 &lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 #心得
-在這個從未接觸的課程裡、我經由課堂上的內容慢慢增加自己的程式應用，像是單位的轉換，畫圖等等.....希望將來能利用所學來充實自己。</t>
+在這個從未接觸的課程裡、我經由課堂上的內容慢慢增加自己的程式應用，像是單位的轉換，畫圖等等.....。也會錄製影片來上字幕，並將影片嵌入網頁裡，讓我學到了很多。</t>
 <t tx="leo.20180902120523.13">&lt;section data-markdown&gt;
 @others
 &lt;/section&gt;

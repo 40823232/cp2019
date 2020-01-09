@@ -21,13 +21,7 @@
 <v t="leo.20180902120523.9"><vh>封面投影片</vh>
 <v t="leo.20180902120523.10"><vh>封面投影片內容</vh></v>
 </v>
-<v t="leo.20180902120523.11"><vh>快捷鍵</vh>
-<v t="leo.20180902120523.12"><vh>投影片快捷鍵</vh></v>
-</v>
 <v t="leo.20180902120523.13"><vh>各式內容引用範例</vh>
-<v t="leo.20200109134401.1"><vh>newHeadline</vh>
-<v t="leo.20200109134403.1"><vh>個人網站</vh></v>
-</v>
 <v t="leo.20200109003017.1"><vh>new2</vh>
 <v t="leo.20200109003017.2"><vh>重量轉換</vh></v>
 </v>
@@ -67,15 +61,6 @@ Created by [KMOLab](http://lab.kmol.info/)
 # 個人網站
 &lt;iframe width="800" height="550" src="https://40823232.github.io/cp2019/content/index.html" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 </t>
-<t tx="leo.20180902120523.11">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-			
-</t>
-<t tx="leo.20180902120523.12"></t>
 <t tx="leo.20180902120523.13">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -255,21 +240,8 @@ QLineEdit#editorLabel {
 vertical: body pane on the botton</t>
 <t tx="leo.20200108234208.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
-    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
 @others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-						
-&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-# 各國國旗
-&lt;iframe width="800" height="550" src="https://dartpad.github.io/embed-html.html?gh_owner=40823232&amp;gh_repo=cp2019&amp;gh_path=downloads/dart_ex/flag&amp;theme=dark" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
 						
 </t>
 <t tx="leo.20200108234208.2">#心得
@@ -285,27 +257,20 @@ vertical: body pane on the botton</t>
 </t>
 <t tx="leo.20200109002729.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
-#心得
-@others
-</t>
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others</t>
 <t tx="leo.20200109002729.2"># 亂數分組
 &lt;iframe width="800" height="550" src="https://dartpad.github.io/embed-html.html?gh_owner=40823232&amp;gh_repo=cp2019&amp;gh_path=downloads/dart_ex/random_grouping&amp;theme=dark" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
 <t tx="leo.20200109003017.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
-# 重量轉換
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
 @others
-    &lt;/script&gt;
-&lt;/section&gt;
-
 
 
 						
 </t>
-<t tx="leo.20200109003017.2">#重量轉換
+<t tx="leo.20200109003017.2"># 重量轉換
 &lt;iframe width="800" height="550" src="https://dartpad.github.io/embed-html.html?gh_owner=40823232&amp;gh_repo=cp2019&amp;gh_path=downloads/dart_ex/weight_change&amp;theme=dark" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 </t>
-<t tx="leo.20200109134401.1"></t>
-<t tx="leo.20200109134403.1"># 個人網站
-&lt;iframe width="800" height="550" src="https://40823232.github.io/cp2019/content/index.html" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
 </tnodes>
 </leo_file>
